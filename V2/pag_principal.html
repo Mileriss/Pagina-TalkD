@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--SCROLLREVEAL-->
     <script src="https://unpkg.com/scrollreveal"></script>
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="estilo_pag_principal.css" />
     <!--Logo na aba-->
@@ -23,7 +25,7 @@
   <body>
     <header>
       <nav>
-        <div id="navbar">
+        <div id="navbar" class="container-fluid">
           <img id="logo-pag-princ" class="logotipo" src="./Imagens/logo_semfundo_reduzido.png" alt="Logotipo TalkD" />
           <a id="nav-solucoes" class="nav-item" href="#">Soluções</a>
           <a id="nav-consultoria" class="nav-item" href="#">Consultoria</a>
@@ -35,16 +37,21 @@
     </header>
 
     <section>
-      <div id="apresentacao">
-        <video autoplay loop muted plays-inline id="video-apresentacao">
-            <source src="./Videos/video-apresentacao.mp4" type="video/mp4">
+      <div id="apresentacao" class="container-fluid">
+        <video autoplay loop muted plays-inline id="video-apres">
+          <source src="./Videos/video-apresentacao.mp4" type="video/mp4" />
         </video>
-        <h1 class="titulos">Bem vindo(a) a TalkD Soluções em Atendimento!</h1>
+        <h1 id="tit-apres" class="titulos">Bem vindo(a) a TalkD Soluções em Atendimento!</h1>
         <h2 class="sub-titulos">A sua empresa disponibiliza uma estrutura moderna e eficiente de atendimento e relacionamento aos seus clientes?</h2>
-        <p class="textos">Em mercados cada vez mais competitivos e comoditizados, estratégias diferenciadas e eficientes de atendimento e relacionamento podem tornar-se grandes diferenciais de negócio para qualquer empresa.</p>
-        <p class="textos">Por esse motivo, a TalkD evoluiu para poder entregar soluções num contexto moderno, integradas e alinhadas com as necessidades de quem atende e precisa ser atendido.</p>
-        <p class="textos"><strong>Agende uma reunião com a TalkD e descubra como transformar o atendimento e impactar os resultados do seu negócio!</strong></p>
+        <p class="textos col">Em mercados cada vez mais competitivos e comoditizados, estratégias diferenciadas e eficientes de atendimento e relacionamento podem tornar-se grandes diferenciais de negócio para qualquer empresa.</p>
+        <p class="textos col">Por esse motivo, a TalkD evoluiu para poder entregar soluções num contexto moderno, integradas e alinhadas com as necessidades de quem atende e precisa ser atendido.</p>
+        <p class="textos col"><strong>Agende uma reunião com a TalkD e descubra como transformar o atendimento e impactar os resultados do seu negócio!</strong></p>
+      </div>
+    </section>
 
+    <section>
+      <div id="atendimento">
+        <h1 id="tit-atendimento" class="titulos">A evolução TalkD no atendimento</h1>
       </div>
     </section>
 

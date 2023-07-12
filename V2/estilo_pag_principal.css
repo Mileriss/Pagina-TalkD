@@ -7,6 +7,7 @@
     background-color: rgba(0, 0, 0, 0.6);
     padding: 10px;
     border-radius: 10px;
+    position: sticky;
 }
 
 .logotipo {
@@ -43,18 +44,24 @@
 
 }
 
+#tit-apres{
+    color: white;
+}
+
 .titulos{
     font-size: 4em;
     border-bottom: 2px solid goldenrod;
 }
 
 .sub-titulos{
-    font-size: 1.8em;
+    font-size: 2.5em;
     text-align: justify;
 }
 
 .textos{
     font-size: 1em;
+    margin: 25px auto;
+    border: 2px solid red;
 }
 
 .titulos, .sub-titulos, .textos{
@@ -63,7 +70,7 @@
     text-align: center;
 }
 
-#video-apresentacao {
+#video-apres{
     position: absolute;
     right: 0;
     bottom: 0;
@@ -71,15 +78,26 @@
 }
 
 @media (min-aspect-ratio: 16/9) {
-    #video-apresentacao {
+    #video-apres{
         width: 100%;
         height: auto;
     }
 }
 
 @media (max-aspect-ratio: 16/9) {
-    #video-apresentacao {
+    #video-apres {
         width: auto;
         height: 100%;
     }
+}
+
+
+/*ATENDIMENTO*/
+#atendimento{
+
+}
+
+
+#tit-atendimento{
+    color: black;
 }
