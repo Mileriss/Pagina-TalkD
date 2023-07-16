@@ -113,7 +113,7 @@ section>* {
 /* APRESENTAÇÃO */
 #apresentacao {
     /* background: rgba(0, 0, 0, 0.6); */
-    margin: 80px auto;
+    margin: 58px auto;
 }
 
 #titulo-apresentacao {
@@ -131,11 +131,12 @@ section>* {
     border: 2px solid rgba(102, 51, 153, 0.5);
     border-radius: 10px;
     padding: 25px;
+    text-align: justify;
 }
 
 .txt-apresentacao{
     margin: 10px auto;
-    font-size: 23px;
+    font-size: 24px;
 }
 
 #txt-destaque-apresentacao{
@@ -177,68 +178,81 @@ section>* {
     }
 }
 
+
 /* SLOGAN */
-#slogan {
-    border-radius: 20px;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* background-color: rgba(119, 136, 153, 0.2); */
-    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
-    padding-bottom: 20px;
+.slg-titulos{
+    font-size: 80px;
+    text-shadow: 0px 0px 5px black;
+    font-family: "Sansita Swashed";
 }
 
-#titulo-slogan {
-    text-align: center;
-    padding: 20px;
-    /* text-shadow: 2px 2px 50px gold; */
+.slg-descricao{
+    padding: 5em;
 }
 
-.slg-item {
-    border-radius: 10px;
-    margin: auto;
-}
-
-.slg-textos {
-    font-size: 25px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid rgba(119, 136, 153, 0.2);
-}
-
-#img-atendimento,
-#img-relacionamento,
-#img-simples {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-}
-
-#img-atendimento {
-    background-color: purple;
-    height: 25em;
-}
-
-#img-relacionamento {
-    background-color: goldenrod;
-    height: 25em;
-}
-
-#img-simples {
-    /* background-color: purple; */
-    background-color: seagreen;
-    height: 25em;
-}
-
-.desc-item {
-    text-align: left;
-    padding: 10px;
-    border: 1px ridge white;
-    border-radius: 10px;
-    margin-bottom: 10px;
+.slg-txt{
+    font-size: 32px;
     color: white;
-    background-color: black;
+    text-align: justify;
 }
+
+/*SLOGAN - Atendimento*/
+#atendimento{
+    background-color: rgba(102, 51, 153, 0.6);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(102, 51, 153, 0.5), rgba(0, 0, 0, 0.6));
+    margin: 0 auto;
+}
+
+#titulo-atendimento{
+    color: purple;
+}
+
+#img-atendimento{
+    position: relative;
+    bottom: 125px;
+    left: 100px;
+    height: 100%;
+    width: auto;
+}
+
+/*SLOGAN - Relacionamento*/
+#relacionamento{
+    background-color: goldenrod;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(218, 165, 32, 0.8), rgba(0, 0, 0, 0.6));
+    margin: 0 auto;
+}
+
+#titulo-relacionamento{
+    color: gold;
+}
+
+#img-relacionamento{
+    position: relative;
+    left: 50px;
+    height: 100%;
+    width: auto;
+}
+
+/*SLOGAN - Simples*/
+#simples{
+    background-color: rgba(46, 139, 86, 0.6);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), seagreen, black);
+    margin: 0 auto;
+}
+
+#titulo-simples{
+    color: seagreen;
+}
+
+#img-simples{
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+
+
+
+
 
 /* SOLUÇÕES DIGITAIS */
 #img-solucoes-digitais {
