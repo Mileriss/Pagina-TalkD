@@ -1,76 +1,142 @@
-/*NAVBAR*/
+/*FORMATAÇÃO GERAL */
+a {
+    color: black;
+    font-weight: bold;
+}
+
+hr {
+    color: goldenrod;
+}
+
+body {
+    background-color: black;
+}
+
+section>* {
+    margin-bottom: 2em;
+}
+
+.img-de-fundo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    border-top: 0.5px solid goldenrod;
+    border-bottom: 0.5px solid goldenrod;
+    padding: 2em;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 35px;
+    color: goldenrod;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.sub-titulo {
+    color: rebeccapurple;
+    font-family: "Sansita Swashed";
+    font-size: 28px;
+    text-align: center;
+}
+
+.textos {
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+    color: white;
+}
+
+.bloco-txt {
+    /* background-color:rgba(128, 128, 128, 0.4); */
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    border: 0.5px solid transparent;
+}
+
+.bloco-txt:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 1px goldenrod;
+}
+
+#lista-servicos,
+#lista-historico {
+    color: white;
+}
+
+.item-lista {
+    list-style: square;
+}
+
+/* LOGOTIPO */
+.logotipo {
+    text-align: center;
+}
+
+#logo {
+    height: 35px;
+}
+
+
+/* NAVBAR */
 #navbar {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-    border-radius: 10px;
-    position: sticky;
+    margin:auto;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
 }
 
-.logotipo {
-    height: 50px;
-    text-align: start !important;
-}
-
-.nav-item {
-    font-size: 25px;
-    margin: auto;
-    font-family: 'Share Tech', sans-serif;
-    font-weight: bold;
-    text-decoration: transparent;
+.item-nav{
     color: white;
-    border-bottom: 2px solid white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.item-nav:hover{
+    color: aliceblue;
+    text-shadow: 0px 0px 10px rebeccapurple;
+    border-bottom: 5px solid;
+    border-bottom-color: goldenrod;
     border-radius: 5px;
+    transition: 0.2s;
 }
 
-.nav-item:hover{
-    transition: 0.3s;
-    color: whitesmoke;
-    text-shadow: 0px 0px 10px darkgreen;
-    border-bottom: 1px solid darkgreen;
-}
 
-/*APRESENTAÇÃO*/
+/* APRESENTAÇÃO */
 #apresentacao {
-    display: flex;
-    flex-flow: column wrap;
-    margin-top: 5em;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-    border-radius: 10px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    margin: 10px auto;
+}
+
+#titulo-apresentacao {
+    font-size: 3em;
+}
+
+.bloco-txt{
 
 }
 
-#tit-apres{
-    color: white;
+.txt-apresentacao{
+    margin: 10px auto;
+    font-size: 25px;
+    
 }
 
-.titulos{
-    font-size: 4em;
-    border-bottom: 2px solid goldenrod;
-}
-
-.sub-titulos{
-    font-size: 2.5em;
-    text-align: justify;
-}
-
-.textos{
-    font-size: 1em;
-    margin: 25px auto;
-    border: 2px solid red;
-}
-
-.titulos, .sub-titulos, .textos{
-    font-family: 'Kanit', sans-serif;
-    color: white;
+.txt-destaque {
+    font-weight: bold;
+    font-style: italic;
     text-align: center;
 }
 
-#video-apres{
+#video-apresentacao{
     position: absolute;
     right: 0;
     bottom: 0;
@@ -78,26 +144,174 @@
 }
 
 @media (min-aspect-ratio: 16/9) {
-    #video-apres{
+    #video-apresentacao{
         width: 100%;
         height: auto;
     }
 }
 
 @media (max-aspect-ratio: 16/9) {
-    #video-apres {
+    #video-apresentacao{
         width: auto;
         height: 100%;
     }
 }
 
+/* SLOGAN */
+#slogan {
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: rgba(119, 136, 153, 0.2); */
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
+    padding-bottom: 20px;
+}
 
-/*ATENDIMENTO*/
-#atendimento{
+#titulo-slogan {
+    text-align: center;
+    padding: 20px;
+    /* text-shadow: 2px 2px 50px gold; */
+}
+
+.slg-item {
+    border-radius: 10px;
+    margin: auto;
+}
+
+.slg-textos {
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(119, 136, 153, 0.2);
+}
+
+#img-atendimento,
+#img-relacionamento,
+#img-simples {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#img-atendimento {
+    background-color: purple;
+    height: 25em;
+}
+
+#img-relacionamento {
+    background-color: goldenrod;
+    height: 25em;
+}
+
+#img-simples {
+    /* background-color: purple; */
+    background-color: seagreen;
+    height: 25em;
+}
+
+.desc-item {
+    text-align: left;
+    padding: 10px;
+    border: 1px ridge white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: black;
+}
+
+/* SOLUÇÕES DIGITAIS */
+#img-solucoes-digitais {
+    background-image: url(./Imagens_de_fundo/imgfundo_solucoes_digitais.jpg);
+}
+
+#solucoes-digitais {
+    background-color: black;
+    justify-content: space-around;
+}
+
+#titulo-sol-digitais {
+    text-align: center;
+}
+
+.bloco-sol-dig {
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
+    margin: 0;
+    padding: 0;
+}
+
+.sol-dig-item {
+    padding: 20px;
+    /* border: 2px solid grey; */
 
 }
 
+.img-sol-dig {
+    height: 5em;
+    display: inline-block;
+}
 
-#tit-atendimento{
-    color: black;
+.titulo-item-sol {
+    font-size: 25px;
+    text-align: justify;
+    font-family: "Sansita Swashed";
+}
+
+/* VOCÊ SABIA */
+#img-vc-sabia {
+    background-image: url(./Imagens_de_fundo/imgfundo_vs_sabia.jpg);
+}
+
+#titulo-vc-sabia {
+    text-align: center;
+}
+
+/* SERVIÇOS */
+#servicos {
+    /* background-color: rgba(119, 136, 153, 0.2); */
+    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+#titulo-servicos {
+    text-align: center;
+}
+
+#txt-destaque-servicos {
+    text-align: center;
+    color: goldenrod;
+    padding-bottom: 2em;
+}
+
+/* ICONE SUBIR - FLECHA PARA CIMA */
+.btn-inicio {
+    text-align: end;
+    padding: 20px;
+    color: white;
+}
+
+#icone-subir-tela {
+    background-color: goldenrod;
+}
+
+/* RODAPE */
+#rodape {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, black, grey, black);
+    padding: 2px;
+    margin: 0;
+}
+
+#txt-rodape {
+    color: white;
+    font-size: 8px;
+}
+
+.logo-rodape {
+    height: 15px;
 }
