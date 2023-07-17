@@ -32,7 +32,7 @@ section>* {
     font-size: 35px;
     color: goldenrod;
     font-weight: bold;
-    font-family: "Ubuntu";
+    font-family: 'Kanit', sans-serif;
     padding: 50px;
     margin: 0 auto;
     text-align: center;
@@ -41,7 +41,6 @@ section>* {
 
 .sub-titulo {
     color: rebeccapurple;
-    font-family: "Sansita Swashed";
     font-size: 28px;
     text-align: center;
 }
@@ -90,17 +89,19 @@ section>* {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin:auto;
+    margin: auto;
     padding: 15px;
     background: rgba(0, 0, 0, 0.6);
 }
 
-.item-nav{
+.item-nav {
     color: white;
     font-size: 20px;
     text-decoration: none;
+    font-family: 'Tektur', cursive;
 }
-.item-nav:hover{
+
+.item-nav:hover {
     color: aliceblue;
     text-shadow: 0px 0px 10px rebeccapurple;
     border-bottom: 5px solid;
@@ -120,12 +121,12 @@ section>* {
     font-size: 3.2em;
 }
 
-#grid-apresentacao{
+#grid-apresentacao {
     margin: 0 auto;
     grid-gap: 10px;
 }
 
-.bloco-txt-apresentacao{
+.bloco-txt-apresentacao {
     margin: 50px auto;
     background-color: rgba(0, 0, 0, 0.6);
     border: 2px solid rgba(102, 51, 153, 0.5);
@@ -134,12 +135,13 @@ section>* {
     text-align: justify;
 }
 
-.txt-apresentacao{
+.txt-apresentacao {
     margin: 10px auto;
     font-size: 24px;
+    font-family: 'Share Tech', sans-serif;
 }
 
-#txt-destaque-apresentacao{
+#txt-destaque-apresentacao {
     animation: flutuando 1.5s alternate infinite ease-in-out;
     font-weight: bold;
     font-style: italic;
@@ -148,16 +150,17 @@ section>* {
 }
 
 @keyframes flutuando {
-    0%{
+    0% {
         transform: translateY(0px);
     }
-    100%{
+
+    100% {
         transform: translateY(20px);
     }
-    
+
 }
 
-#video-apresentacao{
+#video-apresentacao {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -169,48 +172,52 @@ section>* {
 
 /* SLOGAN */
 
-.slogan{
-    background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_1280.png);
+.slogan {
+    /* background-image: url(./Imagens_de_fundo/imgfundo_solucoes_digitais.jpg);
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
-}
-#titulo-slogan{
-    color: goldenrod;
-    margin: 0 auto;
-    font-size: 3.5em;
-    text-align: center;
-    padding: 2.5em;
-}
-.slg-titulos{
-    font-size: 80px;
-    text-shadow: 0px 0px 5px black;
-    font-family: "Sansita Swashed";
+    background-size: cover; */
+    background-color: black;
 }
 
-.slg-descricao{
+#titulo-slogan {
+    color: goldenrod;
+    margin: 20px auto;
+    font-size: 3.5em;
+    text-align: center;
+    padding: 1em;
+}
+
+.slg-titulos {
+    font-size: 80px;
+    text-shadow: 0px 0px 5px black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.slg-descricao {
     padding: 5em;
 }
 
-.slg-txt{
+.slg-txt {
     font-size: 32px;
     color: white;
     text-align: justify;
+    font-family: 'Share Tech', sans-serif;
 }
 
 /*SLOGAN - Atendimento*/
-#atendimento{
+#atendimento {
     background-color: rgba(102, 51, 153, 0.6);
     /* background: linear-gradient(to right, black, rebeccapurple, black); */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(102, 51, 153, 0.9), rgba(0, 0, 0, 0.9));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(102, 51, 153, 0.99), rgba(0, 0, 0, 0.95));
     margin: 0 auto;
 }
 
-#titulo-atendimento{
+#titulo-atendimento {
     color: purple;
 }
 
-#img-atendimento{
+#img-atendimento {
     position: relative;
     bottom: 125px;
     left: 100px;
@@ -219,18 +226,18 @@ section>* {
 }
 
 /*SLOGAN - Relacionamento*/
-#relacionamento{
+#relacionamento {
     background-color: goldenrod;
     /* background: linear-gradient(to right, black, goldenrod, black); */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(218, 165, 32, 0.9), rgba(0, 0, 0, 0.9));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(218, 165, 32, 0.99), rgba(0, 0, 0, 0.95));
     margin: 0 auto;
 }
 
-#titulo-relacionamento{
+#titulo-relacionamento {
     color: gold;
 }
 
-#img-relacionamento{
+#img-relacionamento {
     position: relative;
     right: 40px;
     height: 100%;
@@ -238,64 +245,98 @@ section>* {
 }
 
 /*SLOGAN - Simples*/
-#simples{
+#simples {
     background-color: rgba(46, 139, 86, 0.6);
     /* background: linear-gradient(to right, black, seagreen, black); */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(46, 139, 86, 0.9), rgba(0, 0, 0, 0.9));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(46, 139, 86, 0.99), rgba(0, 0, 0, 0.95));
     margin: 0 auto;
 }
 
-#titulo-simples{
+#titulo-simples {
     color: seagreen;
 }
 
-#img-simples{
+#img-simples {
     position: relative;
     height: 100%;
     width: auto;
 }
 
 
-
-
-
 /* SOLUÇÕES DIGITAIS */
-#img-solucoes-digitais {
-    background-image: url(./Imagens_de_fundo/imgfundo_solucoes_digitais.jpg);
+#sol-dig {
+    /* background-image: url(https://cdn.pixabay.com/photo/2020/04/12/18/13/background-5035258_1280.jpg); */
+    /* background-image: url(./Imagens_de_fundo/imgfundo_solucoes_digitais.jpg); */
+    background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_1280.png);
+    background-position: center;
+    background-size: cover;
     background-attachment: fixed;
 }
 
-#solucoes-digitais {
-    background-color: black;
-    justify-content: space-around;
+#titulo-sol-dig {
+    font-size: 3.2em;
 }
 
-#titulo-sol-digitais {
+.txt-sol-dig {
     text-align: center;
-}
-
-.bloco-sol-dig {
-    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
-    margin: 0;
-    padding: 0;
-}
-
-.sol-dig-item {
-    padding: 20px;
-    /* border: 2px solid grey; */
-
-}
-
-.img-sol-dig {
-    height: 5em;
-    display: inline-block;
-}
-
-.titulo-item-sol {
+    color: white;
     font-size: 25px;
-    text-align: justify;
-    font-family: "Sansita Swashed";
+    font-family: 'Share Tech', sans-serif;
 }
+
+#txt-destaque-sol-dig {
+    animation: flutuando 1.5s alternate infinite ease-in-out;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+@keyframes flutuando {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+
+}
+
+
+#grid-sol-dig {
+    background: linear-gradient(to right, black, rgba(0, 0, 0, 0.6), black);
+    border: 2px solid rebeccapurple;
+    box-shadow: 0 0 10px rebeccapurple;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.sub-titulo-sol-dig {
+    color: black;
+    font-family: 'Tektur', cursive;
+    border: 2px solid black;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 goldenrod;
+    background-color: white;
+}
+
+.txt-grid-sol-dig{
+    color: white;
+    font-size: 20px;
+    font-family: 'Share Tech', sans-serif;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+
+
+
 
 /* VOCÊ SABIA */
 #img-vc-sabia {
