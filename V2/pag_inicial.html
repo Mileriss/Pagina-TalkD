@@ -11,15 +11,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="estilo_pag_principal.css" />
-    <!--BIBLIOTECA DE ICONES-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--FONT-AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <!--FONTS GOOGLE-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Farsan&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Farsan&family=Sansita+Swashed&family=Source+Sans+Pro:wght@300;400&family=Spline+Sans+Mono&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Farsan&family=Sansita+Swashed&family=Source+Sans+Pro:wght@300;400&family=Spline+Sans+Mono&family=Ubuntu&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Share+Tech&family=Tektur&display=swap" rel="stylesheet" />
 
     <title>TalkD Soluções em Atendimento</title>
   </head>
@@ -43,7 +40,7 @@
       <div class="container-fluid" id="apresentacao">
         <div id="div-vid-apresentacao">
           <video autoplay loop muted plays-inline id="video-apresentacao">
-            <source src="Videos/video-apresentacao.mp4" type="video/mp4" />
+            <source src="Videos/video-apresentacao-6.mp4" type="video/mp4" />
           </video>
         </div>
         <h1 id="titulo-apresentacao" class="titulo-principal">A sua empresa disponibiliza uma estrutura moderna e eficiente de atendimento e relacionamento aos seus clientes?</h1>
@@ -61,9 +58,10 @@
       </div>
     </section>
 
-    <!--SLOGAN - Atendimento-->
+    <!--SLOGAN-->
     <div class="slogan">
-      <h1 id="titulo-slogan" class="container-fluid">A evolução TALKD em atendimento</h1>
+      <!-- <h1 id="titulo-slogan" class="container-fluid titulo-principal">A evolução TALKD</h1> -->
+      <!--SLOGAN - Atendimento-->
       <section>
         <div id="atendimento" class="container-fluid row">
           <div id="descricao-atendimento" class="col slg-descricao">
@@ -102,45 +100,34 @@
     </div>
 
     <!--SOLUÇÕES DIGITAIS-->
-    <section class="container-fluid" id="solucoes-digitais">
-      <div class="container-fluid img-de-fundo" id="img-solucoes-digitais">
-        <h2 class="titulo-principal" id="titulo-sol-digitais">Soluções Digitais</h2>
-        <div class="container bloco-txt">
-          <p class="textos">Opções flexíveis em Outsourcing para a sua operação de atendimento e relacionamento. Contact Center, do seu jeito!</p>
-          <p class="textos">Alugamos nossa infraestrutura para que empresas possam expandir ou iniciar uma operação de atendimento sem dificuldade e burocracia.</p>
-          <p class="textos txt-destaque">Entre em contato para mais detalhes sobre a nossa estrutura!</p>
+    <div id="sol-dig">
+      <h1 id="titulo-sol-dig" class="titulo-principal">Soluções Digitais</h1>
+      <p class="txt-sol-dig">
+        Opções flexíveis em Outsourcing para a sua operação de atendimento e relacionamento. Contact Center, do seu jeito! <br />
+        Alugamos nossa infraestrutura para que empresas possam expandir ou iniciar uma operação de atendimento sem dificuldade e burocracia. <br />
+      </p>
+
+      <p id="txt-destaque-sol-dig" class="txt-sol-dig">Entre em contato para mais detalhes sobre a nossa estrutura!</p>
+      <section id="grid-sol-dig" class="row container">
+        <div class="col-lg-6 container">
+          <h2 class="sub-titulo-sol-dig"><i class="fa fa-check-circle" aria-hidden="true" style="margin: 0 10px"></i>On-site ou Home Based</h2>
+          <p class="txt-grid-sol-dig">Flexibilizamos o nosso ambiente de operação para melhor adequação as demandas de nossos clientes. Opere em um formato tradicional, assim como tenha a opção de atender e se relacionar com seus clientes em uma estrutura descentralizada, mas totalmente controlada, produtiva e com melhor custo benefício.</p>
         </div>
-      </div>
-      <div class="container bloco">
-        <div class="container-fluid row bloco-sol-dig">
-          <div id="sol-dig-1" class="container col sol-dig-item">
-            <img class="img-sol-dig" src="./Icones/img_solucoes_digitais.png" alt="Sinal de atribuição de tarefa" />
-            <b class="titulo-item-sol sub-titulo">On-site ou Home Based</b>
-            <p class="textos">Flexibilizamos o nosso ambiente de operação para melhor adequação as demandas de nossos clientes.</p>
-            <p class="textos">Opere em um formato tradicional, assim como tenha a opção de atender e se relacionar com seus clientes em uma estrutura descentralizada, mas totalmente controlada, produtiva e com melhor custo benefício.</p>
-          </div>
-          <div id="sol-dig-2" class="container col sol-dig-item">
-            <img class="img-sol-dig" src="./Icones/img_solucoes_digitais.png" alt="Sinal de atribuição de tarefa" />
-            <b class="titulo-item-sol sub-titulo">Posições de Atendimento</b>
-            <p class="textos">Precisa de mais espaço para a sua operação ou de uma quantidade de PAs para algum projeto de curta ou média duração?</p>
-            <p class="textos">Alugamos nossa estrutura em dois modelos, flexibilizando os recursos disponibilizados e atendendo necessidades específicas.</p>
-          </div>
+        <div class="col-lg-6 container">
+          <h2 class="sub-titulo-sol-dig"><i class="fa fa-check-circle" aria-hidden="true" style="margin: 0 10px"></i>Posições de Atendimento</h2>
+          <p class="txt-grid-sol-dig">Precisa de mais espaço para a sua operação ou de uma quantidade de PAs para algum projeto de curta ou média duração? Alugamos nossa estrutura em dois modelos, flexibilizando os recursos disponibilizados e atendendo necessidades específicas.</p>
         </div>
-        <div class="container-fluid row bloco-sol-dig">
-          <div id="sol-dig-3" class="container col sol-dig-item">
-            <img class="img-sol-dig" src="./Icones/img_solucoes_digitais.png" alt="Sinal de atribuição de tarefa" />
-            <b class="titulo-item-sol sub-titulo">Single Channel ou Multichannel</b>
-            <p class="textos">O atendimento pode ser habilitado para atender qualquer tipo de canal, seja por meio telefônico, ou meios digitais.</p>
-            <p class="textos">A TalkD ajudará a sua empresa na definição da melhor estratégia para a sua operação.</p>
-          </div>
-          <div id="sol-dig-4" class="container col sol-dig-item">
-            <img class="img-sol-dig" src="./Icones/img_solucoes_digitais.png" alt="Sinal de atribuição de tarefa" />
-            <b class="titulo-item-sol sub-titulo">Ambientes Exclusivos</b>
-            <p class="textos">De acordo com o tipo e necessidade da operação, a TalkD pode desenvolver espaços para uso exclusivo, garantindo maior privacidade, comodidade e integração para as equipes.</p>
-          </div>
+        <div class="col-lg-6 container">
+          <h2 class="sub-titulo-sol-dig"><i class="fa fa-check-circle" aria-hidden="true" style="margin: 0 10px"></i>Single Channel ou Multichannel</h2>
+          <p class="txt-grid-sol-dig">O atendimento pode ser habilitado para atender qualquer tipo de canal, seja por meio telefônico, ou meios digitais. A TalkD ajudará a sua empresa na definição da melhor estratégia para a sua operação.</p>
         </div>
-      </div>
-    </section>
+        <div class="col-lg-6 container">
+          <h2 class="sub-titulo-sol-dig"><i class="fa fa-check-circle" aria-hidden="true" style="margin: 0 10px"></i>Ambientes Exclusivos</h2>
+          <p class="txt-grid-sol-dig">De acordo com o tipo e necessidade da operação, a TalkD pode desenvolver espaços para uso exclusivo, garantindo maior privacidade, comodidade e integração para as equipes.</p>
+        </div>
+      </section>
+      <br />
+    </div>
 
     <!--VOCÊ SABIA?-->
     <section class="container-fluid" id="vc-sabia">
