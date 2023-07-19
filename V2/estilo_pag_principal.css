@@ -12,10 +12,6 @@ body {
     background-color: black;
 }
 
-section>* {
-    margin-bottom: 2em;
-}
-
 .img-de-fundo {
     background-position: center;
     background-size: cover;
@@ -34,7 +30,7 @@ section>* {
 }
 
 .sub-titulo {
-    color: rebeccapurple;
+    color: seagreen;
     font-size: 28px;
     text-align: center;
 }
@@ -74,14 +70,6 @@ section>* {
     
 }
 
-#lista-servicos,
-#lista-historico {
-    color: white;
-}
-
-.item-lista {
-    list-style: square;
-}
 
 /* LOGOTIPO */
 .logotipo {
@@ -285,41 +273,110 @@ section>* {
 
 /* VOCÊ SABIA */
 #vc-sabia{
-    background-image: url(https://cdn.pixabay.com/photo/2020/06/04/11/10/bulb-5258341_1280.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/30/12/09/question-mark-1872634_1280.jpg);
 }
 
 #grid-vc-sabia{
     margin: 0 auto;
 }
 
-.txt-grid-vc-sabia{
-    font-size: 50px;
+
+
+
+/* CONTATO */
+#contato{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
-
-
-
-/* SERVIÇOS */
-#servicos {
-    /* background-color: rgba(119, 136, 153, 0.2); */
-    background-image: linear-gradient(to right, black, rgba(119, 136, 153, 0.2), black);
-    border-radius: 20px;
+#servicos{
+    padding: 20px;
     margin: 0 auto;
 }
 
-#titulo-servicos {
+#lista-servicos{
+    list-style-type:disc;
+}
+
+.item-lista{
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 24px;
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+}
+
+#form-contato-pag-inicial{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    height: 100%;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    place-items: center;
+    border: 2px solid purple;
     text-align: center;
 }
 
-#txt-destaque-servicos {
-    text-align: center;
-    color: goldenrod;
-    padding-bottom: 2em;
+.lbl{
+    color: white;
+    font-family: 'Tektur', cursive;
+    font-size: 28px;
+    margin: 10px auto;
+}
+
+.inp{
+    width: 30vh;
+    font-family: 'Share Tech', sans-serif;
+    background-color: dimgray;
+    font-size: 23px;
+    border-radius: 5px;
+    color: black;
+}
+.inp::placeholder{
+    font-size: 18px;
+    color: black;
+}
+.inp:focus{
+    transition: 0.5s;
+    background-color: white;
+    box-shadow: 0 0 3px 2px white;
+    border-radius: 10px;
+}
+
+#txt-area-contato{
+    height: 20vh;
+    width: 100%;
+    font-family: 'Share Tech', sans-serif;
+    max-height: 25vh;
+    font-size: 20px;
+}
+
+#btn-contato-enviar{
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 20vh;
+}
+#btn-contato-enviar:hover{
+    background-color: goldenrod;
+    color: white;
+    transition: 0.5s;
 }
 
 /* ICONE SUBIR - FLECHA PARA CIMA */
 .btn-inicio {
-    text-align: end;
+    /* text-align: end; */
+    position: fixed;
+    left: 200vh;
+    bottom: 30px;
     padding: 20px;
     color: white;
 }
@@ -335,16 +392,27 @@ section>* {
     padding-top: 20px;
     border: 2px solid white;
     border-radius: 10px;
-    background-image: linear-gradient(to right, black, grey, black);
-    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
     margin: 0;
+}
+
+#logo-rodape{
+    height: 20px;
+    margin: 5px auto;
 }
 
 #txt-rodape {
     color: white;
-    font-size: 8px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .logo-rodape {
     height: 15px;
+}
+
+#pag-criada, #github-mileris{
+    color: white;
 }
