@@ -61,7 +61,6 @@
     <!--SLOGAN-->
     <div class="slogan">
       <!-- <h1 id="titulo-slogan" class="container-fluid titulo-principal">A evolução TALKD</h1> -->
-      <!--SLOGAN - Atendimento-->
       <section>
         <div id="atendimento" class="container-fluid row">
           <div id="descricao-atendimento" class="col slg-descricao">
@@ -73,7 +72,7 @@
           </div>
         </div>
       </section>
-      <!--SLOGAN - Relacionamento-->
+
       <section>
         <div id="relacionamento" class="container-fluid row">
           <div class="col">
@@ -85,7 +84,7 @@
           </div>
         </div>
       </section>
-      <!--SLOGAN - Simples-->
+
       <section>
         <div id="simples" class="container-fluid row">
           <div id="descricao-simples" class="col slg-descricao">
@@ -101,7 +100,7 @@
 
     <!--SOLUÇÕES DIGITAIS-->
     <div id="sol-dig" class="img-de-fundo">
-      <h1 id="titulo-sol-dig" class="titulo-principal">Soluções Digitais</h1>
+      <h2 id="titulo-sol-dig" class="titulo-principal">Soluções Digitais</h2>
       <p class="txt-sol-dig">
         Opções flexíveis em Outsourcing para a sua operação de atendimento e relacionamento. Contact Center, do seu jeito! <br />
         Alugamos nossa infraestrutura para que empresas possam expandir ou iniciar uma operação de atendimento sem dificuldade e burocracia. <br />
@@ -131,58 +130,70 @@
 
     <!--VOCÊ SABIA?-->
     <div id="vc-sabia" class="container-fluid img-de-fundo">
-      <h1 id="titulo-vc-sabia" class="titulo-principal">Você sabia?</h1>
+      <h2 id="titulo-vc-sabia" class="titulo-principal">Você sabia?</h2>
       <section id="grid-vc-sabia" class="row gap-3 container-fluid">
         <div class="col bloco-txt">
-          <p class="txt-grid-vs-sabia">*62% dos consumidores avaliados consideram muito importante o atendimento que recebem das empresas na contratação de serviços ou compra de produtos.</p>
+          <p class="txt-grid-vc-sabia">*62% dos consumidores avaliados consideram muito importante o atendimento que recebem das empresas na contratação de serviços ou compra de produtos.</p>
         </div>
-        <div class="col bloco-txt" style="border: 2px solid goldenrod;">
-          <p class="txt-grid-vs-sabia">*66% dos consumidores acreditam que o atendimento ao cliente pode ser um diferencial competitivo para as empresas.</p>
+        <div class="col bloco-txt" style="border: 2px solid goldenrod">
+          <p class="txt-grid-vc-sabia">*66% dos consumidores acreditam que o atendimento ao cliente pode ser um diferencial competitivo para as empresas.</p>
         </div>
-        <div class="col bloco-txt" style="border: 2px solid seagreen;">
-          <p class="txt-grid-vs-sabia">*53% dos consumidores preferem ser atendidos por telefone primariamente. E-mail segue como segundo com 49% e WhatsApp com 41%.</p>
+        <div class="col bloco-txt" style="border: 2px solid seagreen">
+          <p class="txt-grid-vc-sabia">*53% dos consumidores preferem ser atendidos por telefone primariamente. E-mail segue como segundo com 49% e WhatsApp com 41%.</p>
         </div>
       </section>
     </div>
 
-    <!--SERVIÇOS-->
-    <section class="container" id="servicos">
-      <div class="container">
-        <h2 id="titulo-servicos" class="titulo-principal">Evolua você também o atendimento da sua empresa!</h2>
-      </div>
-      <div class="container" id="lista-servicos">
-        <ul>
-          <li class="textos item-lista">Hot Spots para exploração comercial</li>
-          <li class="textos item-lista">Novos serviços derivados do Wi-Fi 6 (802.11ax) que suporta largura de banda de rede quatro vezes maior e simultaneidade de usuário em comparação com o disponível, incorporando tecnologias de antena e algoritmo alimentadas por 5G.</li>
-          <li class="textos item-lista">Site Survey</li>
-          <li class="textos item-lista">Ativação</li>
-          <li class="textos item-lista">Operação</li>
-          <li class="textos item-lista">Venda/recarga</li>
-          <li class="textos item-lista">Controle de faturamento</li>
-          <li class="textos item-lista">Gestão administrativa</li>
-          <li class="textos item-lista">Gestão dos pontos de hot spot</li>
-        </ul>
-      </div>
-      <div id="txt-destaque-servicos">
-        <b>Esta é a divisão de Consultoria!</b>
+    <!--CONTATO-->
+    <section>
+      <div id="contato" class="row container">
+        <h2 id="titulo-contato" class="titulo-principal">Entre em contato conosco</h2>
+        <div id="servicos" class="col-sm-7">
+          <h3 id="titulo-contato" class="sub-titulo">Evolua você também o atendimento da sua empresa!</h3>
+          <ul id="lista-servicos">
+            <li class="item-lista">Hot Spots para exploração comercial</li>
+            <li class="item-lista">Novos serviços derivados do Wi-Fi 6 (802.11ax).</li>
+            <li class="item-lista">Site Survey</li>
+            <li class="item-lista">Ativação</li>
+            <li class="item-lista">Operação</li>
+            <li class="item-lista">Venda/recarga</li>
+            <li class="item-lista">Controle de faturamento</li>
+            <li class="item-lista">Gestão administrativa</li>
+            <li class="item-lista">Gestão dos pontos de hot spot</li>
+          </ul>
+        </div>
+        <!--Formulário contato-->
+        <div id="form-contato-pag-inicial" class="col-auto">
+          <form id="form-contato" class="grid-form-contato">
+            <label id="lbl-nome" class="lbl" for="inp-nome">Nome:</label>
+            <input id="inp-nome" class="inp" type="text" minlength="5" maxlength="12" required placeholder="Digite seu nome aqui..." /><br />
+            <label id="lbl-email" class="lbl" for="inp-email">E-mail:</label>
+            <input id="inp-email" class="inp" type="email" required placeholder="Digite seu e-mail aqui..." /><br />
+            <label id="lbl-contato" class="lbl" for="inp-contato">Contato:</label>
+            <input id="lbl-contato" class="inp" type="number" required placeholder="Deixe seu nº de contato..." /><br />
+            <label id="lbl-area-contato" class="lbl" for="txt-area-contato">Deixe sua solicitação:</label><br />
+            <textarea id="txt-area-contato" class="inp"></textarea><br />
+            <button id="btn-contato-enviar" class="btn">Enviar</button>
+          </form>
+        </div>
       </div>
     </section>
 
     <!--BOTÃO SUBIR TELA-->
     <div class="btn-inicio fixed-bottom">
-      <a href="#" class="btn btn-md" id="icone-subir-tela" role="button" aria-pressed="true"><i class="fa fa-arrow-up"></i></a>
+      <a href="#" class="btn btn-md" id="icone-subir-tela" role="button" aria-pressed="true"><i class="fa fa-arrow-circle-up"></i></a>
     </div>
 
     <!--RODAPÉ-->
     <footer class="container-fluid" id="rodape">
-      <div class="img-dfh">
-        <img class="logo-rodape" src="./Icones/logo_dfh.png" alt="icone DFH Engenharia" />
+      <div class="img-talkd">
+        <img id="logo-rodape" src="./Icones/logo_talkd.png" alt="icone TalkD Soluções em Atendimento" />
       </div>
       <div class="direitos">
         <b id="txt-rodape">Direitos reservados: TalkD</b>
       </div>
-      <div class="img-talkd">
-        <img class="logo-rodape" src="./Icones/logo_talkd.png" alt="icone TalkD Soluções em Atendimento" />
+      <div>
+        <b id="pag-criada">Criado por: <a id="github-mileris" href="https://github.com/Mileriss" target="_blank">Rafael Mileris</a></b>
       </div>
     </footer>
 
