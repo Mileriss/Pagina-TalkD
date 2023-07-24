@@ -295,18 +295,20 @@ body {
 /*SLOGAN - Relacionamento*/
 #relacionamento {
     background-color: goldenrod;
-    display: block;
+    /* background: linear-gradient(to right, black, goldenrod, black); */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(218, 165, 32, 0.99), rgba(0, 0, 0, 0.95));
     margin: 0 auto;
-    background-image: url(./Imagens_sem_fundo/img_relacionamento_semfundo.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 @media screen and (min-width: 350px) and (max-width:767px) {
     #relacionamento {
-        display: flex;
-        flex-flow: column wrap;
+        background-color: goldenrod;
+        display: block;
+        margin: 0 auto;
+        background-image: url(./Imagens_sem_fundo/img_relacionamento_semfundo.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 }
 
@@ -332,18 +334,20 @@ body {
 /*SLOGAN - Simples*/
 #simples {
     background-color: rgba(46, 139, 86, 0.6);
-    display: block;
+    /* background: linear-gradient(to right, black, seagreen, black); */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(46, 139, 86, 0.99), rgba(0, 0, 0, 0.95));
     margin: 0 auto;
-    background-image: url(./Imagens_sem_fundo/img_simples_2-semfundo.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 @media screen and (min-width: 350px) and (max-width:767px) {
     #simples {
-        display: flex;
-        flex-flow: column wrap;
+        background-color: rgba(46, 139, 86, 0.6);
+        display: block;
+        margin: 0 auto;
+        background-image: url(./Imagens_sem_fundo/img_simples_2-semfundo.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 }
 
