@@ -28,8 +28,8 @@ body {
     text-align: center;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px){
-    .titulo-principal{
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .titulo-principal {
         font-size: 1em;
         text-align: center;
         padding: 10px;
@@ -59,14 +59,14 @@ body {
     height: 35px;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px){
-    #logo{
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    #logo {
         height: 30px;
     }
 }
 
 /* NAVBAR */
-#navbar{
+#navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,14 +75,14 @@ body {
     margin: 0 auto;
 }
 
-#menu-nav{
+#menu-nav {
     justify-content: end;
     margin: 10px auto;
     text-align: center;
     border-radius: 10px;
 }
 
-#lista-nav .item-menu{
+#lista-nav .item-menu {
     margin-left: 20px;
 }
 
@@ -103,7 +103,7 @@ body {
     transition: 0.2s;
 }
 
-.lista-nav li:first-child{
+.lista-nav li:first-child {
     margin-left: 0px;
 }
 
@@ -113,8 +113,9 @@ body {
     /* background: rgba(0, 0, 0, 0.6); */
     margin: 58px auto;
 }
-@media screen and (min-width: 350px) and (max-width: 767px){
-    #apresentacao{
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    #apresentacao {
         margin: 20px auto;
     }
 }
@@ -123,15 +124,16 @@ body {
     margin: 0 auto;
     grid-gap: 10px;
 }
-@media screen and (min-width: 350px) and (max-width: 767px){
-    #grid-apresentacao{
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    #grid-apresentacao {
         display: flex;
         flex-flow: column wrap;
         grid-gap: 0;
     }
 }
 
-.bloco-txt-apresentacao{
+.bloco-txt-apresentacao {
     margin: 50px auto;
     background-color: rgba(0, 0, 0, 0.8);
     border: 2px solid rebeccapurple;
@@ -142,8 +144,9 @@ body {
     font-family: 'Share Tech', sans-serif;
     color: white;
 }
-@media screen and (min-width: 350px) and (max-width: 767px){
-    .bloco-txt-apresentacao{
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .bloco-txt-apresentacao {
         margin: 10px auto;
         padding: 15px;
     }
@@ -154,14 +157,15 @@ body {
     font-size: 24px;
     font-family: 'Share Tech', sans-serif;
 }
-@media screen and (min-width: 350px) and (max-width: 767px){
-    .txt-apresentacao{
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .txt-apresentacao {
         margin: 0 auto;
         font-size: 14px;
     }
 }
 
-#txt-destaque-apresentacao{
+#txt-destaque-apresentacao {
     animation: flutuando 1.5s alternate infinite ease-in-out;
     color: white;
     font-weight: bold;
@@ -170,8 +174,9 @@ body {
     text-decoration: underline;
     font-size: 22px;
 }
-@media screen and (min-width: 350px) and (max-width: 767px){
-    #txt-destaque-apresentacao{
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    #txt-destaque-apresentacao {
         font-size: 10px;
         margin-bottom: 50px;
     }
@@ -197,10 +202,12 @@ body {
     background-size: cover; */
     background-color: black;
 }
-@media screen and (min-width: 350px) and (max-width: 767px){
-    #slogan{
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    #slogan {
         display: flex;
         flex-flow: column wrap;
+        margin: 0 auto;
     }
 }
 
@@ -209,19 +216,21 @@ body {
     text-shadow: 0px 0px 5px black;
     font-family: 'Kanit', sans-serif;
 }
-@media screen and (min-width: 350px) and (max-width: 767px){
-    .slg-titulos{
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .slg-titulos {
         font-size: 40px;
+        text-align: center;
     }
 }
-
 
 .slg-descricao {
     padding: 5em;
 }
-@media screen and (min-width: 350px) and (max-width: 767px){
-    .slg-descricao{
-        padding: 20px;
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .slg-descricao {
+        padding: 15px;
     }
 }
 
@@ -231,10 +240,14 @@ body {
     text-align: justify;
     font-family: 'Share Tech', sans-serif;
 }
-@media screen and (min-width: 350px) and (max-width: 767px){
-    .slg-txt{
-        font-size: 10px;
-        text-align: left;
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .slg-txt {
+        font-size: 20px;
+        text-align: justify;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
     }
 }
 
@@ -245,11 +258,16 @@ body {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(102, 51, 153, 0.99), rgba(0, 0, 0, 0.95));
     margin: 0 auto;
 }
-@media screen and (min-width: 350px) and (max-width:767px){
-    #atendimento{
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #atendimento {
+        display: block;
         margin: 0 auto;
-        display: flex;
-        flex-flow: column wrap;
+        background-image: url(./Imagens_sem_fundo/img_atendimento_semfundo.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: rgba(102, 51, 153, 0.6);
     }
 }
 
@@ -264,24 +282,29 @@ body {
     height: 100%;
     width: auto;
 }
-@media screen and (min-width: 350px) and (max-width:767px){
-    #img-atendimento{
-        position: static;
-        margin: 0 auto;
-        height: 20vh;
-        width: auto;
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #img-atendimento {
+        position: none;
+        bottom: none;
+        left: none;
+        height: 0;
     }
 }
 
 /*SLOGAN - Relacionamento*/
 #relacionamento {
     background-color: goldenrod;
-    /* background: linear-gradient(to right, black, goldenrod, black); */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(218, 165, 32, 0.99), rgba(0, 0, 0, 0.95));
+    display: block;
     margin: 0 auto;
+    background-image: url(./Imagens_sem_fundo/img_relacionamento_semfundo.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-@media screen and (min-width: 350px) and (max-width:767px){
-    #relacionamento{
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #relacionamento {
         display: flex;
         flex-flow: column wrap;
     }
@@ -297,23 +320,28 @@ body {
     height: 100%;
     width: auto;
 }
-@media screen and (min-width: 350px) and (max-width:767px){
-    #img-relacionamento{
-        margin: 0 auto;
-        height: 50%;
-        width: auto;
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #img-relacionamento {
+        position: none;
+        right: none;
+        height: 0;
     }
 }
 
 /*SLOGAN - Simples*/
 #simples {
     background-color: rgba(46, 139, 86, 0.6);
-    /* background: linear-gradient(to right, black, seagreen, black); */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(46, 139, 86, 0.99), rgba(0, 0, 0, 0.95));
+    display: block;
     margin: 0 auto;
+    background-image: url(./Imagens_sem_fundo/img_simples_2-semfundo.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-@media screen and (min-width: 350px) and (max-width:767px){
-    #simples{
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #simples {
         display: flex;
         flex-flow: column wrap;
     }
@@ -328,11 +356,11 @@ body {
     height: 100%;
     width: auto;
 }
-@media screen and (min-width: 350px) and (max-width:767px){
-    #img-simples{
-        position: static;
-        margin: 0 auto;
-        height: 50%;
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #img-simples {
+        position: none;
+        height: 0;
         width: auto;
     }
 }
@@ -351,7 +379,7 @@ body {
     font-family: 'Share Tech', sans-serif;
 }
 
-#txt-destaque-sol-dig{
+#txt-destaque-sol-dig {
     animation: flutuando 1.5s alternate infinite ease-in-out;
     color: white;
     font-weight: bold;
@@ -382,7 +410,7 @@ body {
     background-color: white;
 }
 
-.txt-grid-sol-dig{
+.txt-grid-sol-dig {
     color: white;
     font-size: 20px;
     font-family: 'Share Tech', sans-serif;
@@ -393,11 +421,11 @@ body {
 
 
 /* VOCÊ SABIA */
-#vc-sabia{
+#vc-sabia {
     background-image: url(https://cdn.pixabay.com/photo/2016/11/30/12/09/question-mark-1872634_1280.jpg);
 }
 
-.bloco-txt-vc-sabia{
+.bloco-txt-vc-sabia {
     margin: 50px auto;
     background-color: rgba(0, 0, 0, 0.8);
     border: 2px solid rebeccapurple;
@@ -410,7 +438,7 @@ body {
     color: white;
 }
 
-#grid-vc-sabia{
+#grid-vc-sabia {
     margin: 0 auto;
 }
 
@@ -418,23 +446,23 @@ body {
 
 
 /* CONTATO */
-#contato{
+#contato {
     background-color: rgba(0, 0, 0, 0.6);
     margin: 10px auto;
     border: 2px solid black;
     border-radius: 10px;
 }
 
-#servicos{
+#servicos {
     padding: 20px;
     margin: 0 auto;
 }
 
-#lista-servicos{
-    list-style-type:disc;
+#lista-servicos {
+    list-style-type: disc;
 }
 
-.item-lista{
+.item-lista {
     margin: 0 auto;
     text-align: justify;
     font-size: 24px;
@@ -442,7 +470,7 @@ body {
     color: white;
 }
 
-#form-contato-pag-inicial{
+#form-contato-pag-inicial {
     display: flex;
     flex-flow: column wrap;
     background-color: black;
@@ -457,14 +485,14 @@ body {
     text-align: center;
 }
 
-.lbl{
+.lbl {
     color: white;
     font-family: 'Tektur', cursive;
     font-size: 28px;
     margin: 10px auto;
 }
 
-.inp{
+.inp {
     width: 30vh;
     font-family: 'Share Tech', sans-serif;
     background-color: dimgray;
@@ -472,18 +500,20 @@ body {
     border-radius: 5px;
     color: black;
 }
-.inp::placeholder{
+
+.inp::placeholder {
     font-size: 18px;
     color: black;
 }
-.inp:focus{
+
+.inp:focus {
     transition: 0.5s;
     background-color: white;
     box-shadow: 0 0 3px 2px white;
     border-radius: 10px;
 }
 
-#txt-area-contato{
+#txt-area-contato {
     height: 20vh;
     width: 100%;
     font-family: 'Share Tech', sans-serif;
@@ -491,7 +521,7 @@ body {
     font-size: 20px;
 }
 
-#btn-contato-enviar{
+#btn-contato-enviar {
     background-color: white;
     font-family: 'Kanit', sans-serif;
     border: 1px solid black;
@@ -499,7 +529,8 @@ body {
     font-size: 20px;
     width: 20vh;
 }
-#btn-contato-enviar:hover{
+
+#btn-contato-enviar:hover {
     background-color: goldenrod;
     color: white;
     transition: 0.5s;
@@ -531,7 +562,7 @@ body {
     margin: 0;
 }
 
-#logo-rodape{
+#logo-rodape {
     height: 20px;
     margin: 5px auto;
 }
@@ -547,6 +578,7 @@ body {
     height: 15px;
 }
 
-#pag-criada, #github-mileris{
+#pag-criada,
+#github-mileris {
     color: white;
 }
