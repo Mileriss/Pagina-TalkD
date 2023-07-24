@@ -30,10 +30,9 @@ body {
 
 @media screen and (min-width: 350px) and (max-width: 767px) {
     .titulo-principal {
-        font-size: 1em;
+        font-size: 1.5em;
         text-align: center;
         padding: 10px;
-        margin: 10px auto;
     }
 }
 
@@ -191,10 +190,8 @@ body {
     min-height: 100%;
 }
 
+
 /* SLOGAN */
-
-/*! VERIFICAR - FOI INICIADO MAS PRECISA SER REVISADO TODA A PARTE DE SLOGAN*/
-
 #slogan {
     /* background-image: url(./Imagens_de_fundo/imgfundo_solucoes_digitais.jpg);
     background-position: center;
@@ -372,8 +369,17 @@ body {
 
 
 /* SOLUÇÕES DIGITAIS */
+/*! REVISAR A FORMATAÇÃO CRIADA E INICIAR A FORMATAÇÃO RESTANTE*/
 #sol-dig {
     background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_1280.png);
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px){
+    #sol-dig{
+        background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_1280.png);
+        background-size: 100%;
+        margin: 0 auto;
+    }
 }
 
 .txt-sol-dig {
@@ -381,6 +387,14 @@ body {
     color: white;
     font-size: 25px;
     font-family: 'Share Tech', sans-serif;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px){
+    .txt-sol-dig{
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+    }
 }
 
 #txt-destaque-sol-dig {
@@ -391,6 +405,13 @@ body {
     text-align: center;
     text-decoration: underline;
     font-size: 22px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px){
+    #txt-destaque-sol-dig{
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
 }
 
 
