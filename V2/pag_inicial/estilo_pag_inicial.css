@@ -270,10 +270,10 @@ body {
 
 @media screen and (min-width: 350px) and (max-width:767px) {
     #img-atendimento {
-        position: none;
+        position: static;
         bottom: none;
         left: none;
-        height: 0;
+        height: 100%;
     }
 }
 
