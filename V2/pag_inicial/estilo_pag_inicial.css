@@ -309,7 +309,7 @@ body {
 
 @media screen and (min-width: 350px) and (max-width:767px) {
     #img-relacionamento {
-        position: none;
+        position: static;
         right: none;
         height: 0;
     }
@@ -402,12 +402,20 @@ body {
 
 
 #grid-sol-dig {
-    background: linear-gradient(to right, black, rgba(0, 0, 0, 0.6), black);
+    background-color: rgba(0, 0, 0, 0.4);
     border: 2px solid rebeccapurple;
     box-shadow: 0 0 10px rebeccapurple;
     border-radius: 20px;
     margin: 50px auto;
     padding: 20px;
+}
+
+@media screen and (min-width: 350px) and (max-width:767px){
+    #grid-sol-dig{
+        border-radius: 10px;
+        margin: 10px auto;
+        padding: 10px;
+    }
 }
 
 .sub-titulo-sol-dig {
@@ -421,13 +429,30 @@ body {
     background-color: white;
 }
 
+@media screen and (min-width:350px) and (max-width: 767px){
+    .sub-titulo-sol-dig{
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
 .txt-grid-sol-dig {
     color: white;
     font-size: 20px;
     font-family: 'Share Tech', sans-serif;
     text-align: justify;
     padding: 10px;
+}
 
+@media screen and (min-width: 350px) and (max-width: 767px){
+    .txt-grid-sol-dig{
+        font-size: 12px;
+        text-align: center;
+        padding: 5px;
+        margin: 5px auto;
+        margin-bottom: 25px;
+    }
 }
 
 
