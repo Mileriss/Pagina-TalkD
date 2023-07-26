@@ -1,0 +1,595 @@
+/*FORMATAÇÃO GERAL */
+a {
+    color: black;
+    font-weight: bold;
+}
+
+hr {
+    color: goldenrod;
+}
+
+body {
+    background-color: black;
+}
+
+.img-de-fundo {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo-principal {
+    font-size: 3.2em;
+    color: goldenrod;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .titulo-principal {
+        font-size: 1.5em;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.sub-titulo {
+    color: seagreen;
+    font-size: 28px;
+    text-align: center;
+}
+
+@keyframes flutuando {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+
+}
+
+/* LOGOTIPO */
+#logo {
+    height: 35px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    #logo {
+        height: 30px;
+    }
+}
+
+/* NAVBAR */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+}
+
+#menu-nav {
+    justify-content: end;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#lista-nav .item-menu {
+    margin-left: 20px;
+}
+
+.item-menu {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Tektur', cursive;
+    margin-top: 50px;
+}
+
+.item-menu:hover {
+    color: aliceblue;
+    text-shadow: 0px 0px 10px rebeccapurple;
+    border-bottom: 5px solid;
+    border-bottom-color: goldenrod;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.lista-nav li:first-child {
+    margin-left: 0px;
+}
+
+
+/* APRESENTAÇÃO */
+#apresentacao {
+    /* background: rgba(0, 0, 0, 0.6); */
+    margin: 58px auto;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    #apresentacao {
+        margin: 20px auto;
+    }
+}
+
+#grid-apresentacao {
+    margin: 0 auto;
+    grid-gap: 10px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    #grid-apresentacao {
+        display: flex;
+        flex-flow: column wrap;
+        grid-gap: 0;
+    }
+}
+
+.bloco-txt-apresentacao {
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid rebeccapurple;
+    /* box-shadow: 0 0 10px rgba(102, 51, 153, 0.5); */
+    border-radius: 10px;
+    padding: 25px;
+    text-align: justify;
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .bloco-txt-apresentacao {
+        margin: 10px auto;
+        padding: 15px;
+    }
+}
+
+.txt-apresentacao {
+    margin: 10px auto;
+    font-size: 24px;
+    font-family: 'Share Tech', sans-serif;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .txt-apresentacao {
+        margin: 0 auto;
+        font-size: 14px;
+    }
+}
+
+#txt-destaque-apresentacao {
+    animation: flutuando 1.5s alternate infinite ease-in-out;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    #txt-destaque-apresentacao {
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+}
+
+#video-apresentacao {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+/* SLOGAN */
+
+#slogan{
+    background-color: black;
+}
+
+.slg-titulos {
+    font-size: 80px;
+    text-shadow: 0px 0px 5px black;
+    font-family: 'Kanit', sans-serif;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .slg-titulos {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+.slg-descricao {
+    padding: 5em;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .slg-descricao {
+        padding: 15px;
+    }
+}
+
+.slg-txt {
+    font-size: 32px;
+    color: white;
+    text-align: justify;
+    font-family: 'Share Tech', sans-serif;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    .slg-txt {
+        font-size: 20px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+    }
+}
+
+/*SLOGAN - Atendimento*/
+#atendimento {
+    background-color: rgba(102, 51, 153, 0.8);
+    box-shadow: 0px 0px 15px rebeccapurple;
+    background: linear-gradient(to bottom, rgba(102, 51, 153, 0.5), rebeccapurple, rgba(102, 51, 153, 0.5));
+    margin: 10px auto;
+}
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #atendimento {
+        display: block;
+        margin: 0 auto;
+        background-image: url(/V2/Imagens_sem_fundo/img_atendimento_semfundo.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: rgba(102, 51, 153, 0.6);
+    }
+}
+
+#titulo-atendimento {
+    color: purple;
+}
+
+#img-atendimento {
+    position: relative;
+    bottom: 125px;
+    left: 150px;
+    height: 100%;
+    width: 65%;
+}
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #img-atendimento {
+        position: static;
+        bottom: none;
+        left: none;
+        height: 0;
+    }
+}
+
+/*SLOGAN - Relacionamento*/
+#relacionamento {
+    background-color: rgba(218, 165, 32, 0.6);
+    box-shadow: 0px 0px 15px goldenrod;
+    background: linear-gradient(to bottom, rgba(218, 165, 32, 0.5), goldenrod, rgba(218, 165, 32, 0.5));
+    margin: 10px auto;
+}
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #relacionamento {
+        background-color: goldenrod;
+        display: block;
+        margin: 0 auto;
+        background-image: url(/V2/Imagens_sem_fundo/img_relacionamento_semfundo.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+#titulo-relacionamento {
+    color: gold;
+}
+
+#img-relacionamento {
+    position: relative;
+    right: 40px;
+    height: 100%;
+    width: auto;
+}
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #img-relacionamento {
+        position: none;
+        right: none;
+        height: 0;
+    }
+}
+
+/*SLOGAN - Simples*/
+#simples {
+    background-color: rgba(46, 139, 86, 0.6);
+    box-shadow: 0px 0px 15px seagreen;
+    background: linear-gradient(to bottom, rgba(46, 139, 86, 0.6), seagreen, rgba(46, 139, 86, 0.6));
+    margin: 10px auto;
+}
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #simples {
+        background-color: rgba(46, 139, 86, 0.6);
+        display: block;
+        margin: 0 auto;
+        background-image: url(/V2/Imagens_sem_fundo/img_simples_2-semfundo.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+#titulo-simples {
+    color: greenyellow;
+}
+
+#img-simples {
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+
+@media screen and (min-width: 350px) and (max-width:767px) {
+    #img-simples {
+        position: none;
+        height: 0;
+        width: auto;
+    }
+}
+
+
+
+/* SOLUÇÕES DIGITAIS */
+/*! REVISAR A FORMATAÇÃO CRIADA E INICIAR A FORMATAÇÃO RESTANTE*/
+#sol-dig {
+    background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_1280.png);
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px){
+    #sol-dig{
+        background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_1280.png);
+        background-size: 100%;
+        margin: 0 auto;
+    }
+}
+
+.txt-sol-dig {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Share Tech', sans-serif;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px){
+    .txt-sol-dig{
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+#txt-destaque-sol-dig {
+    animation: flutuando 1.5s alternate infinite ease-in-out;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px){
+    #txt-destaque-sol-dig{
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+}
+
+
+#grid-sol-dig {
+    background: linear-gradient(to right, black, rgba(0, 0, 0, 0.6), black);
+    border: 2px solid rebeccapurple;
+    box-shadow: 0 0 10px rebeccapurple;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.sub-titulo-sol-dig {
+    color: black;
+    font-family: 'Tektur', cursive;
+    border: 2px solid black;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 goldenrod;
+    background-color: white;
+}
+
+.txt-grid-sol-dig {
+    color: white;
+    font-size: 20px;
+    font-family: 'Share Tech', sans-serif;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+/* VOCÊ SABIA */
+#vc-sabia {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/30/12/09/question-mark-1872634_1280.jpg);
+}
+
+.bloco-txt-vc-sabia {
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid rebeccapurple;
+    /* box-shadow: 0 0 10px rgba(102, 51, 153, 0.5); */
+    border-radius: 10px;
+    padding: 25px;
+    text-align: justify;
+    font-size: 24px;
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+}
+
+#grid-vc-sabia {
+    margin: 0 auto;
+}
+
+
+
+
+/* CONTATO */
+#contato {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#servicos {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#lista-servicos {
+    list-style-type: disc;
+}
+
+.item-lista {
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 24px;
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+}
+
+#form-contato-pag-inicial {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    height: 100%;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    place-items: center;
+    border: 2px solid purple;
+    text-align: center;
+}
+
+.lbl {
+    color: white;
+    font-family: 'Tektur', cursive;
+    font-size: 28px;
+    margin: 10px auto;
+}
+
+.inp {
+    width: 30vh;
+    font-family: 'Share Tech', sans-serif;
+    background-color: dimgray;
+    font-size: 23px;
+    border-radius: 5px;
+    color: black;
+}
+
+.inp::placeholder {
+    font-size: 18px;
+    color: black;
+}
+
+.inp:focus {
+    transition: 0.5s;
+    background-color: white;
+    box-shadow: 0 0 3px 2px white;
+    border-radius: 10px;
+}
+
+#txt-area-contato {
+    height: 20vh;
+    width: 100%;
+    font-family: 'Share Tech', sans-serif;
+    max-height: 25vh;
+    font-size: 20px;
+}
+
+#btn-contato-enviar {
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 20vh;
+}
+
+#btn-contato-enviar:hover {
+    background-color: goldenrod;
+    color: white;
+    transition: 0.5s;
+}
+
+/* ICONE SUBIR - FLECHA PARA CIMA */
+.btn-inicio {
+    /* text-align: end; */
+    position: fixed;
+    left: 200vh;
+    bottom: 30px;
+    padding: 20px;
+    color: white;
+}
+
+#icone-subir-tela {
+    background-color: goldenrod;
+}
+
+/* RODAPE */
+#rodape {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin: 0;
+}
+
+#logo-rodape {
+    height: 20px;
+    margin: 5px auto;
+}
+
+#txt-rodape {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo-rodape {
+    height: 15px;
+}
+
+#pag-criada,
+#github-mileris {
+    color: white;
+}
