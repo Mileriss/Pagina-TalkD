@@ -249,7 +249,7 @@ body {
     #atendimento {
         display: block;
         margin: 0 auto;
-        background-image: url(/V2/Imagens_sem_fundo/img_atendimento_semfundo.png);
+        background-image: url(../Imagens_sem_fundo/img_atendimento_semfundo.png);
         background-repeat: no-repeat;
         background-size: 100%;
         background-color: rgba(102, 51, 153, 0.6);
@@ -290,7 +290,7 @@ body {
         background-color: goldenrod;
         display: block;
         margin: 0 auto;
-        background-image: url(/V2/Imagens_sem_fundo/img_relacionamento_semfundo.png);
+        background-image: url(../Imagens_sem_fundo/img_relacionamento_semfundo.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -328,7 +328,7 @@ body {
         background-color: rgba(46, 139, 86, 0.6);
         display: block;
         margin: 0 auto;
-        background-image: url(/V2/Imagens_sem_fundo/img_simples_2-semfundo.png);
+        background-image: url(../Imagens_sem_fundo/img_simples_2-semfundo.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
