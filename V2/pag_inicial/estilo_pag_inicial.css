@@ -578,11 +578,29 @@ body {
     text-align: center;
 }
 
+@media screen and (min-width:350px) and (max-width:767px) {
+    #form-contato-pag-inicial {
+        margin: 0 auto;
+        height: auto;
+        width: auto;
+        padding: 10px;
+        
+    }
+    
+}
+
 .lbl {
     color: white;
     font-family: 'Tektur', cursive;
     font-size: 28px;
     margin: 10px auto;
+}
+@media screen and (min-width: 350px) and (max-width:767px) {
+    .lbl{
+        font-size: 25px;
+        
+    }
+    
 }
 
 .inp {
@@ -592,6 +610,13 @@ body {
     font-size: 23px;
     border-radius: 5px;
     color: black;
+}
+
+@media screen and (min-width:350px) and (max-width:767px){
+    .inp{
+        height: 5vh;
+        font-size: 18px;
+    }
 }
 
 .inp::placeholder {
@@ -613,6 +638,13 @@ body {
     max-height: 25vh;
     font-size: 20px;
 }
+@media screen and (min-width:350px) and (max-width:767px){
+    #txt-area-contato{
+        font-size: 18px;
+        min-height: 20vh;
+        max-height: 20vh;
+    }
+}
 
 #btn-contato-enviar {
     background-color: white;
@@ -621,6 +653,13 @@ body {
     margin-top: 10px;
     font-size: 20px;
     width: 20vh;
+}
+@media screen and (min-width:350px) and (max-width:767px){
+    #btn-contato-enviar{
+        height:auto;
+        width: fit-content;
+        font-weight: bold;
+    }
 }
 
 #btn-contato-enviar:hover {
