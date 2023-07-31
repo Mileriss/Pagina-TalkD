@@ -701,12 +701,23 @@ body {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 10px;
-    margin: 0;
+    margin: 0 auto;
+}
+@media screen and (min-width:350px) and (max-width:767px){
+    #rodape{
+        padding-top: 0;
+        padding: 5px;
+    }
 }
 
 #logo-rodape {
     height: 20px;
     margin: 5px auto;
+}
+@media screen and (min-width:350px) and (max-width: 767px){
+    #logo-rodape{
+        height: 14px;
+    }
 }
 
 #txt-rodape {
@@ -715,12 +726,13 @@ body {
     text-align: center;
     margin: 0 auto;
 }
-
-.logo-rodape {
-    height: 15px;
+@media screen and (min-width: 350px) and (max-width: 767px){
+    #txt-rodape, #pag-criada, #rafael-mileris{
+        font-size: 8px;
+    }
 }
 
 #pag-criada,
-#github-mileris {
+#rafael-mileris {
     color: white;
 }
