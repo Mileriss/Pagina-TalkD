@@ -642,8 +642,8 @@ body {
     #txt-area-contato{
         font-size: 18px;
         min-height: 10vh;
-        height: 12.5vh;
-        max-height: 15vh;
+        height: 10vh;
+        max-height: 10vh;
     }
 }
 
