@@ -641,8 +641,9 @@ body {
 @media screen and (min-width:350px) and (max-width:767px){
     #txt-area-contato{
         font-size: 18px;
-        min-height: 20vh;
-        max-height: 20vh;
+        min-height: 10vh;
+        height: 12.5vh;
+        max-height: 15vh;
     }
 }
 
