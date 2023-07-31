@@ -249,7 +249,7 @@ body {
     #atendimento {
         display: block;
         margin: 0 auto;
-        background-image: url(/V2/Imagens_sem_fundo/img_atendimento_semfundo.png);
+        background-image: url(./Imagens_sem_fundo/img_atendimento_semfundo.png);
         background-repeat: no-repeat;
         background-size: 100%;
         background-color: rgba(102, 51, 153, 0.6);
@@ -290,7 +290,7 @@ body {
         background-color: goldenrod;
         display: block;
         margin: 0 auto;
-        background-image: url(../Imagens_sem_fundo/img_relacionamento_semfundo.png);
+        background-image: url(./Imagens_sem_fundo/img_relacionamento_semfundo.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -328,7 +328,7 @@ body {
         background-color: rgba(46, 139, 86, 0.6);
         display: block;
         margin: 0 auto;
-        background-image: url(../Imagens_sem_fundo/img_simples_2-semfundo.png);
+        background-image: url(./Imagens_sem_fundo/img_simples_2-semfundo.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -356,12 +356,12 @@ body {
 
 /* SOLUÇÕES DIGITAIS */
 #sol-dig {
-    background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_1280.png);
+    background-image: url(./Imagens_de_fundo/img_sol_dig.png);
 }
 
 @media screen and (min-width: 350px) and (max-width: 767px){
     #sol-dig{
-        background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_1280.png);
+        background-image: url(./Imagens_de_fundo/img_sol_dig.png);
         background-size: 100%;
         margin: 0 auto;
     }
@@ -457,7 +457,7 @@ body {
 
 /* VOCÊ SABIA */
 #vc-sabia {
-    background-image: url(https://cdn.pixabay.com/photo/2016/11/30/12/09/question-mark-1872634_1280.jpg);
+    background-image: url(./Imagens_de_fundo/img_vc_sabia.webp);
 }
 
 @media screen and (min-width: 350px) and (max-width: 767px){
