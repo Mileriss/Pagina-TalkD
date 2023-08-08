@@ -1,0 +1,26 @@
+#solucoes-talkd{
+    background-image: url(https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_1280.jpg);
+}
+
+#txt-sol-talkd{
+    text-align: justify;
+    margin: 10px auto;
+}
+
+#grid-solucoes{
+    background: linear-gradient(to right top, black, grey, black);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.item-lista-grid{
+    list-style-type: square;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    text-align: justify;
+}
+
+#lista-isps{
+    display: block;
+    place-items: center;
+}
