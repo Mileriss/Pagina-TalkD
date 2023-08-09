@@ -42,6 +42,10 @@ body {
     text-align: center;
 }
 
+.espacamento-icones{
+    margin: 0 20px;
+}
+
 @keyframes flutuando {
     0% {
         transform: translateY(0px);
