@@ -1,6 +1,6 @@
 /* SOLUÇÕES DIGITAIS*/
 #solucoes-talkd{
-    background-image: url(https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_1280.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg);
 }
 
 #txt-sol-talkd{
@@ -9,22 +9,25 @@
 }
 
 .sub-titulo{
-    font-size: 35px;
+    font-size: 35px !important;
     width: 100%;
     text-shadow: 0px 5px 5px purple;
+    padding: 25px;
 }
 
 #grid-solucoes{
-    
+    background-color: rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     padding: 20px;
-    display: grid;
+    display: flex;
+    flex-flow: column wrap;
     place-items: center;
     align-items: center;
 }
 
 #grid-isps, #grid-provedores, #grid-ativ-servicos{
-    background-color: brown;
+    background-color:rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 20px black;
     border-radius: 20px;
 }
 
@@ -32,7 +35,7 @@
     margin: 50px auto;
 }
 
-.item-lista-grid{
+.titulo-lista-grid{
     margin-top: 20px;
     list-style-type: none;
     font-size: 24px;
@@ -40,7 +43,25 @@
     text-align: left;
     padding: 10px;
     color: white;
-    background-color: black;
-    border: 2px solid red;
-    border-radius: 10px;
+    background: linear-gradient(to top, black, seagreen);
+    border-top: 2px solid seagreen;
+    border-right: 2px solid seagreen;
+    border-left: 2px solid seagreen;
+    box-shadow: 0 0 10px seagreen;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.txt-lista-grid{
+    color: black !important;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    box-shadow: 0 0 5px white;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: darkgrey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
