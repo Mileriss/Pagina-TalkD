@@ -19,7 +19,7 @@ body {
 }
 
 .titulo-principal {
-    font-size: 3.2em;
+    font-size: 52px;
     color: goldenrod;
     font-weight: bold;
     font-family: 'Kanit', sans-serif;
@@ -86,7 +86,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: rgba(0, 0, 0, 0.6);
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    background-color: black;
     margin: 0 auto;
 }
 
