@@ -429,7 +429,7 @@
 .item-lista {
     margin: 0 auto;
     text-align: justify;
-    font-size: 32px;
+    font-size: 32px !important;
     font-family: 'Share Tech', sans-serif;
     color: white;
 }
