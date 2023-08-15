@@ -88,7 +88,7 @@
 }
 
 .div-bpo-item, .div-beneficios{
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rebeccapurple, rgba(0, 0, 0, 0.6));
+    background: linear-gradient(to right bottom, grey, dimgray, grey );
     box-shadow: 0px 0px 15px black;
     border: 1px solid black;
     border-radius: 20px;
@@ -106,7 +106,7 @@
 }
 
 .titulo-bpo-item{
-    color: white;
+    color: black;
     font-weight: bold;
     text-align: center;
 }
