@@ -65,19 +65,18 @@
         <div id="grid-solucoes" class="container-fluid espacamento-grid-solucoes">
           <div id="grid-isps" class="row container espacamento-grid-solucoes">
             <h2 class="sub-titulo">Por aqui, você pode gerenciar e acompanhar os contatos com ISPs.</h2>
-            <div class="col">
-              <ul class="lista-isps">
+            <div class="teste col">
+              
                 <li class="titulo-lista-grid"><i class="fa fa-check espacamento-icones"></i>Base de Dados construida pela TalkD.</li>
-                <p class="txt-grid txt-lista-grid">Nossa equipe está sempre alimentando a base de dados com informações atualizadas sobre provedores e planos em todo o Brasil!</p>
+                <p class="txt-grid txt-lista-grid">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, cumque! Commodi modi odio error. Praesentium eum provident facere odit sit ipsum, ea voluptatibus dicta et quasi voluptas molestiae inventore magni.</p>
                 <li class="titulo-lista-grid"><i class="fa fa-check espacamento-icones"></i>Contratação de ISP e assinatura do Contrato.</li>
                 <p class="txt-grid txt-lista-grid">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In neque magnam recusandae earum animi quia eveniet corporis consectetur facilis exercitationem ad, esse incidunt eos sint adipisci minus cum aut est!</p>
               </ul>
             </div>
             <div class="col">
-              <ul class="lista-isps">
-                <li class="titulo-lista-grid"><i class="fa fa-check espacamento-icones"></i>Instalação e operação do ISP.</li>
+                <h3 class="titulo-lista-grid"><i class="fa fa-check espacamento-icones"></i>Instalação e operação do ISP.</li>
                 <p class="txt-grid txt-lista-grid">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In neque magnam recusandae earum animi quia eveniet corporis consectetur facilis exercitationem ad, esse incidunt eos sint adipisci minus cum aut est!</p>
-                <li class="titulo-lista-grid"><i class="fa fa-check espacamento-icones"></i>interfaceamento com sistemas proprietário do cliente através de API's.</li>
+                <li class="titulo-lista-grid"><i class="fa fa-check espacamento-icones"></i>Ajunção do sistema cliente através de API's.</li>
                 <p class="txt-grid txt-lista-grid">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In neque magnam recusandae earum animi quia eveniet corporis consectetur facilis exercitationem ad, esse incidunt eos sint adipisci minus cum aut est!</p>
               </ul>
             </div>
@@ -143,63 +142,69 @@
         <div id="bpo-metodologia" class="container-fluid">
           <h2 class="sub-titulo">Metodologia para mapeamento dos provedores de banda larga</h2>
 
-          <div id="bpo-div-1" class="div-bpo-item container">
-            <h3 class="titulo-bpo-item">Início</h3>
-            <ul class="lista-bpo-item">
-              <li class="item-bpo-lista">Recepção de listas de pontos a serem atendidos, pelo pré-vendas do cliente</li>
-              <li class="item-bpo-lista">Análise de viabilidade teórica utilizando Base de Dados online da TalkD</li>
-              <li class="item-bpo-lista">Análise de viabilidade complementar através de contato/interação com os provedores</li>
-              <li class="item-bpo-lista">Tabela Nacional de valores médios de Banda Larga por região atualizada</li>
-            </ul>
+          <div class="row container-fluid grid-div-bpo">
+            <div id="bpo-div-1" class="col div-bpo-item container">
+              <h3 class="titulo-bpo-item">Início</h3>
+              <ul class="lista-bpo-item">
+                <li class="item-bpo-lista">De listas de pontos a serem atendidos, pelo pré-vendas do cliente</li>
+                <li class="item-bpo-lista">Análise de viabilidade teórica utilizando Base de Dados online da TalkD</li>
+                <li class="item-bpo-lista">Análise de viabilidade complementar através de contato/interação com os provedores</li>
+                <li class="item-bpo-lista">Tabela Nacional de valores médios de Banda Larga por região atualizada</li>
+              </ul>
+            </div>
+
+            <div id="bpo-div-2" class="col div-bpo-item container-fluid">
+              <h3 class="titulo-bpo-item">Pré-Qualificação</h3>
+              <ul class="lista-bpo-item">
+                <li class="item-bpo-lista">Documentação, contrato Social, licença SCM</li>
+                <li class="item-bpo-lista">Cadastro do ISP como fornecedor</li>
+                <li class="item-bpo-lista">Contrato (modelo do cliente ou termo de adesão específico para cada ISP)</li>
+                <li class="item-bpo-lista">Proposta comercial</li>
+              </ul>
+            </div>
           </div>
 
-          <div id="bpo-div-2" class="div-bpo-item container">
-            <h3 class="titulo-bpo-item">Pré-Qualificação</h3>
-            <ul class="lista-bpo-item">
-              <li class="item-bpo-lista">Documentação, contrato Social, licença SCM</li>
-              <li class="item-bpo-lista">Cadastro do ISP como fornecedor</li>
-              <li class="item-bpo-lista">Contrato (modelo do cliente ou termo de adesão específico para cada ISP)</li>
-              <li class="item-bpo-lista">Proposta comercial</li>
-            </ul>
+          <div class="row container-fluid grid-div-bpo">
+            <div id="bpo-div-3" class="col div-bpo-item container">
+              <h3 class="titulo-bpo-item">Acompanhamento do pedido junto ao ISP</h3>
+              <ul class="lista-bpo-item">
+                <li class="item-bpo-lista">Colocação do pedido/contratação (após aprovação do cliente)</li>
+                <li class="item-bpo-lista">Verificação da designação do circuito</li>
+                <li class="item-bpo-lista">Organização da documentação para seguir com o pedido</li>
+              </ul>
+            </div>
+
+            <div id="bpo-div-4" class="col div-bpo-item container">
+              <h3 class="titulo-bpo-item">Termo de Aceite / Contato com o cliente no local</h3>
+              <ul class="lista-bpo-item">
+                <li class="item-bpo-lista">Acompanhamento do fluxo até a instalação</li>
+                <li class="item-bpo-lista">Liberação para testes e acompanhamento</li>
+                <li class="item-bpo-lista">Termo de instalação e aceite do cliente</li>
+              </ul>
+            </div>
           </div>
 
-          <div id="bpo-div-3" class="div-bpo-item container">
-            <h3 class="titulo-bpo-item">Acompanhamento do pedido junto ao ISP</h3>
-            <ul class="lista-bpo-item">
-              <li class="item-bpo-lista">Colocação do pedido/contratação (após aprovação do cliente)</li>
-              <li class="item-bpo-lista">Verificação da designação do circuito</li>
-              <li class="item-bpo-lista">Organização da documentação para seguir com o pedido</li>
-            </ul>
-          </div>
+          <div class="row container-fluid grid-div-bpo">
+            <div id="bpo-div-5" class="col div-bpo-item container">
+              <h3 class="titulo-bpo-item">Abertura, Acompanhamento e Encerramento de chamados</h3>
+              <ul class="lista-bpo-item">
+                <li class="item-bpo-lista">de e-mail da Operação, solicitando abertura do chamado para a Banda Larga</li>
+                <li class="item-bpo-lista">Acionamento e acompanhamento o ISP com registros de tempo de atendimento (SLA)</li>
+                <li class="item-bpo-lista">Fechamento do chamado através de e-mail para operação</li>
+                <li class="item-bpo-lista">Disponibilização de “view” do sistema para verificar finalização do chamado</li>
+                <li class="item-bpo-lista">Registro do tempo de abertura x fechamento do chamado</li>
+                <li class="item-bpo-lista">Estatísticas de qualidade de provedores (por SLA), visando substituição por qualidade se for o caso e se houver outro ISP no local</li>
+              </ul>
+            </div>
 
-          <div id="bpo-div-4" class="div-bpo-item container">
-            <h3 class="titulo-bpo-item">Termo de Aceite / Contato com o cliente no local</h3>
-            <ul class="lista-bpo-item">
-              <li class="item-bpo-lista">Acompanhamento do fluxo até a instalação</li>
-              <li class="item-bpo-lista">Liberação para testes e acompanhamento</li>
-              <li class="item-bpo-lista">Termo de instalação e aceite do cliente</li>
-            </ul>
-          </div>
-
-          <div id="bpo-div-5" class="div-bpo-item container">
-            <h3 class="titulo-bpo-item">Abertura, Acompanhamento e Encerramento de chamados</h3>
-            <ul class="lista-bpo-item">
-              <li class="item-bpo-lista">Recebimento de e-mail da Operação, solicitando abertura do chamado para a Banda Larga</li>
-              <li class="item-bpo-lista">Acionamento e acompanhamento o ISP com registros de tempo de atendimento (SLA)</li>
-              <li class="item-bpo-lista">Fechamento do chamado através de e-mail para operação</li>
-              <li class="item-bpo-lista">Disponibilização de “view” do sistema para verificar finalização do chamado</li>
-              <li class="item-bpo-lista">Registro do tempo de abertura x fechamento do chamado</li>
-              <li class="item-bpo-lista">Estatísticas de qualidade de provedores (por SLA), visando substituição por qualidade se for o caso e se houver outro ISP no local</li>
-            </ul>
-          </div>
-
-          <div id="bpo-div-6" class="div-bpo-item container">
-            <h3 class="titulo-bpo-item">Lançamento para pagamento</h3>
-            <ul class="lista-bpo-item">
-              <li class="item-bpo-lista">Efetuar o lançamento na plataforma do cliente, para a aprovação interna</li>
-              <li class="item-bpo-lista">Consolidar o pagamento com a cobrança do ISP (visando mitigar possível corte por demora no fluxo)</li>
-              <li class="item-bpo-lista">Termo de instalação e aceite do cliente</li>
-            </ul>
+            <div id="bpo-div-6" class="col div-bpo-item container">
+              <h3 class="titulo-bpo-item">Lançamento para pagamento</h3>
+              <ul class="lista-bpo-item">
+                <li class="item-bpo-lista">Efetuar o lançamento na plataforma do cliente, para a aprovação interna</li>
+                <li class="item-bpo-lista">Consolidar o pagamento com a cobrança do ISP (visando mitigar possível corte por demora no fluxo)</li>
+                <li class="item-bpo-lista">Termo de instalação e aceite do cliente</li>
+              </ul>
+            </div>
           </div>
         </div>
 
@@ -207,17 +212,17 @@
         <div id="bpo-beneficios" class="container-fluid">
           <h2 class="sub-titulo">Beneficios</h2>
 
-          <div id="bpo-div-1" class="div-bpo-item container">
+          <div id="bpo-div-7" class="div-bpo-item div-beneficios container">
             <h3 class="titulo-bpo-item">Início</h3>
             <ul class="lista-bpo-item">
-              <li class="item-bpo-lista">Atualização contínua do mapeamento dos provedores de Banda Larga</li>
-              <li class="item-bpo-lista">Processo desenhado especificamente para a contratação de Banda Larga, pode ser ajustado para EILD</li>
-              <li class="item-bpo-lista">Suporte na negociação com grandes provedores</li>
-              <li class="item-bpo-lista">Acompanhamento do fechamento do Contrato com o ISP</li>
-              <li class="item-bpo-lista">Ferramentas de automação</li>
-              <li class="item-bpo-lista">Levantamento de documentação dos ISPs para cadastro</li>
-              <li class="item-bpo-lista">Controle de recebimento e conferência de NF de cada circuito de cada Provedor, simplificando o input de pagamento</li>
-              <li class="item-bpo-lista">Manter o foco das áreas de engenharia e backoffice do cliente para atender os projetos mais complexos</li>
+              <li class="item-bpo-lista"><i class="fa fa-arrow-right espacamento-icones"></i>Atualização contínua do mapeamento dos provedores de Banda Larga</li>
+              <li class="item-bpo-lista"><i class="fa fa-arrow-right espacamento-icones"></i>Processo desenhado especificamente para a contratação de Banda Larga, pode ser ajustado para EILD</li>
+              <li class="item-bpo-lista"><i class="fa fa-arrow-right espacamento-icones"></i>Suporte na negociação com grandes provedores</li>
+              <li class="item-bpo-lista"><i class="fa fa-arrow-right espacamento-icones"></i>Acompanhamento do fechamento do Contrato com o ISP</li>
+              <li class="item-bpo-lista"><i class="fa fa-arrow-right espacamento-icones"></i>Ferramentas de automação</li>
+              <li class="item-bpo-lista"><i class="fa fa-arrow-right espacamento-icones"></i>Levantamento de documentação dos ISPs para cadastro</li>
+              <li class="item-bpo-lista"><i class="fa fa-arrow-right espacamento-icones"></i>Controle de recebimento e conferência de NF de cada circuito de cada Provedor, simplificando o input de pagamento</li>
+              <li class="item-bpo-lista"><i class="fa fa-arrow-right espacamento-icones"></i>Manter o foco das áreas de engenharia e backoffice do cliente para atender os projetos mais complexos</li>
             </ul>
           </div>
         </div>
