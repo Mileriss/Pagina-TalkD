@@ -78,7 +78,7 @@
 }
 
 #bpo-metodologia{
-    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.9);
     margin: 0 auto;
 }
 
@@ -87,21 +87,26 @@
 
 }
 
-.div-bpo-item{
-    /* background-color: goldenrod; */
-    background-color: rgba(0, 0, 0, 0.95);
-    box-shadow: 0px 0px 20px black;
+.div-bpo-item, .div-beneficios{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rebeccapurple, rgba(0, 0, 0, 0.6));
+    box-shadow: 0px 0px 15px black;
     border: 1px solid black;
     border-radius: 20px;
-    margin: 0 20px auto;
+    margin: 10px 20px auto;
     width: 50%;
     padding: 10px;
     width: fit-content;
     height: fit-content;
 }
 
+.div-beneficios{
+    margin: 0 auto;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
 .titulo-bpo-item{
-    color: rebeccapurple;
+    color: white;
     font-weight: bold;
     text-align: center;
 }
@@ -115,7 +120,4 @@
     padding: 10px;
 }
 
-.div-beneficios{
-    margin: 0 auto;
-    list-style-type: none;
-}
+
