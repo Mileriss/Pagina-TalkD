@@ -1,3 +1,11 @@
+/*FORMATAÇÃO GERAL*/
+.bloco-background{
+    background-color:rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
 /* SOLUÇÕES DIGITAIS*/
 #solucoes-talkd{
     background-image: url(https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg);
@@ -8,7 +16,6 @@
 }
 
 .sub-titulo{
-    font-size: 35px !important;
     width: 100%;
     text-shadow: 0px 5px 5px purple;
     padding: 25px;
@@ -31,13 +38,6 @@
 .div-grid-solucoes{
     
     padding: 20px;
-}
-
-#grid-isps, #grid-provedores, #grid-ativ-servicos{
-    background-color:rgba(0, 0, 0, 0.9);
-    box-shadow: 0 0 20px black;
-    border-radius: 20px;
-    margin: 50px auto;
 }
 
 .espacamento-grid-solucoes{
@@ -96,11 +96,6 @@
     background-image: url(https://cdn.pixabay.com/photo/2017/06/14/16/20/network-2402637_1280.jpg);
 }
 
-#bpo-metodologia{
-    background-color: rgba(0, 0, 0, 0.9);
-    margin: 0 auto;
-}
-
 .grid-div-bpo{
     margin: 10px auto;
 
@@ -117,12 +112,7 @@
     padding: 10px;
     width: fit-content;
     height: fit-content;
-}
-
-.div-beneficios{
-    margin: 0 auto;
-    list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.95) !important;
+    margin-bottom: 50px;
 }
 
 .titulo-bpo-item{
@@ -140,8 +130,29 @@
     padding: 10px;
 }
 
+#bpo-beneficios{
+    padding: 50px;
+}
+
+.div-beneficios{
+    margin: 0 auto;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    border: 2px goldenrod;
+}
+
 
 /*SDWAN*/
+#sdwan{
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/18/02/16/luminous-7204052_1280.jpg);
+}
 
+#div-txt-apres-sdwan{
+    margin: 0 auto;
+    text-align: justify;
+}
 
-
+#bloco-txt-sdwan{
+    background-color: black;
+    margin: 0 auto;
+}
