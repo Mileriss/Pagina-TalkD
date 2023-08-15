@@ -44,19 +44,38 @@
     margin: 50px auto;
 }
 
-.titulo-item-grid-solucoes{
+.titulo-item-grid-solucoes, .titulo-isps, .titulo-provedores, .titulo-aiv-servicos{
     font-size: 24px;
     font-family: 'Kanit', sans-serif;
     text-align: left;
     padding: 10px;
     color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.titulo-isps{
+    background: linear-gradient(to top, black, rebeccapurple);
+    border-top: 2px solid rebeccapurple;
+    border-right: 2px solid rebeccapurple;
+    border-left: 2px solid rebeccapurple;
+    box-shadow: 0 0 10px rebeccapurple;
+}
+
+.titulo-provedores{
+    background: linear-gradient(to top, black, goldenrod);
+    border-top: 2px solid goldenrod;
+    border-right: 2px solid goldenrod;
+    border-left: 2px solid goldenrod;
+    box-shadow: 0 0 10px goldenrod;
+}
+
+.titulo-ativ-servicos{
     background: linear-gradient(to top, black, seagreen);
     border-top: 2px solid seagreen;
     border-right: 2px solid seagreen;
     border-left: 2px solid seagreen;
     box-shadow: 0 0 10px seagreen;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 .txt-lista-grid{
