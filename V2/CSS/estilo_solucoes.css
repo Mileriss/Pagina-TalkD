@@ -5,7 +5,6 @@
 
 #txt-sol-talkd{
     text-align: justify;
-    margin: 10px auto;
 }
 
 .sub-titulo{
@@ -29,30 +28,23 @@
     margin: 0 auto;
 }
 
-.teste{
-    background-color: yellow;
+.div-grid-solucoes{
+    
+    padding: 20px;
 }
 
 #grid-isps, #grid-provedores, #grid-ativ-servicos{
     background-color:rgba(0, 0, 0, 0.9);
     box-shadow: 0 0 20px black;
     border-radius: 20px;
-    margin: 0 auto;
-}
-
-.lista-isps{
-    background-color: red;
-    justify-content: center;
-    
+    margin: 50px auto;
 }
 
 .espacamento-grid-solucoes{
     margin: 50px auto;
 }
 
-.titulo-lista-grid{
-    margin-top: 20px;
-    list-style-type: none;
+.titulo-item-grid-solucoes{
     font-size: 24px;
     font-family: 'Kanit', sans-serif;
     text-align: left;
@@ -63,7 +55,6 @@
     border-right: 2px solid seagreen;
     border-left: 2px solid seagreen;
     box-shadow: 0 0 10px seagreen;
-    /* border-radius: 10px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -74,7 +65,6 @@
     border-right: 2px solid white;
     border-bottom: 2px solid white;
     box-shadow: 0 0 5px white;
-    margin: 0 auto;
     padding: 10px;
     background-color: darkgrey;
     border-bottom-left-radius: 10px;
