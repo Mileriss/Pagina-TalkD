@@ -19,10 +19,10 @@ body {
 }
 
 .titulo-principal {
-    font-size: 52px;
+    font-size: 50px;
     color: goldenrod;
     font-weight: bold;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Tektur', cursive;
     padding: 50px;
     margin: 0 auto;
     text-align: center;
@@ -38,8 +38,9 @@ body {
 
 .sub-titulo {
     color: goldenrod;
-    font-size: 28px;
+    font-size: 40px;
     text-align: center;
+    font-family: 'Share Tech', sans-serif;
 }
 
 .espacamento-icones{
@@ -58,15 +59,21 @@ body {
 }
 
 .txt-principal{
-    font-family: 'Share Tech', sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: white;
     font-size: 24px;
 }
 
 .txt-grid{
-    font-family: 'Share Tech', sans-serif;
+    font-family: 'Comfortaa', cursive;
     color: white;
     font-size: 20px;
+}
+
+.txt-listas{
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+    font-size: 24px;
 }
 
 /* LOGOTIPO */
