@@ -131,7 +131,7 @@
 }
 
 #bpo-beneficios{
-    padding: 50px;
+    padding-bottom: 20px;
 }
 
 .div-beneficios{
@@ -145,14 +145,19 @@
 /*SDWAN*/
 #sdwan{
     background-image: url(https://cdn.pixabay.com/photo/2022/05/18/02/16/luminous-7204052_1280.jpg);
+    padding-bottom: 20px;
 }
 
 #div-txt-apres-sdwan{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: justify;
 }
 
 #bloco-txt-sdwan{
-    background-color: black;
+    margin: 0 auto;
+}
+
+.parag-txt-sdwan{
+    padding: 25px;
     margin: 0 auto;
 }
