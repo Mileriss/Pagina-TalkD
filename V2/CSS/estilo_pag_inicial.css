@@ -310,9 +310,10 @@
 .sub-titulo-sol-dig {
     color: black;
     font-family: 'Tektur', cursive;
+    text-align: center;
     border: 2px solid black;
     padding: 10px;
-    width: fit-content;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 5px 5px 0 goldenrod;
     background-color: white;
