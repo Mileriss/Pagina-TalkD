@@ -111,9 +111,8 @@
     border: 1px solid black;
     border-radius: 20px;
     margin: 10px 20px auto;
-    width: 50%;
     padding: 10px;
-    width: fit-content;
+    width: 50%;
     height: fit-content;
     
 }
@@ -160,6 +159,7 @@
     list-style-type: none;
     background-color: rgba(0, 0, 0, 0.95) !important;
     border: 2px goldenrod;
+    width: fit-content !important;
 }
 
 
