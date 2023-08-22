@@ -18,6 +18,13 @@ body {
     background-attachment: fixed;
 }
 
+.bloco-background{
+    background-color:rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
 .titulo-principal {
     font-size: 50px;
     color: goldenrod;
