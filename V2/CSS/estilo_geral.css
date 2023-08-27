@@ -12,12 +12,15 @@ body {
     background-color: black;
 }
 
+
+/*IMAGEM QUE FICA DE FUNDO EM TODAS AS SEÇÕES(PARALAX)*/
 .img-de-fundo {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
+/*FUNDO PRETO COM UM POUCO DE TRANSPARENCIA QUE FICA NOS BLOCOS DE TEXTO*/
 .bloco-background{
     background-color:rgba(0, 0, 0, 0.9);
     box-shadow: 0 0 20px black;
@@ -25,6 +28,7 @@ body {
     margin: 10px auto;
 }
 
+/*TITULO PRINCIPAL DE CADA SEÇÃO*/
 .titulo-principal {
     font-size: 50px;
     color: goldenrod;
@@ -43,6 +47,7 @@ body {
     }
 }
 
+/*SUB-TITULOS DE CADA SEÇÃO OU DE CADA DIV DA SEÇÃO*/
 .sub-titulo {
     color: goldenrod;
     font-size: 40px;
@@ -50,6 +55,7 @@ body {
     font-family: 'Share Tech', sans-serif;
 }
 
+/*ESPAÇAMENTO DE ICONES UTILIZADOS NAS DIV SOLUÇÕES DIGITAIS*/
 .espacamento-icones{
     margin: 0 20px;
 }
@@ -65,6 +71,7 @@ body {
 
 }
 
+/*FORMATAÇÃO UTILIZADA NOS TEXTOS DE INTRODUÇÃO DE CADA SEÇÃO*/
 .txt-principal{
     font-family: 'Kanit', sans-serif;
     color: black;
@@ -77,13 +84,15 @@ body {
     margin-bottom: 25px;
 }
 
-.txt-grid{
+/*FORMATAÇÃO UTILIZADA NOS TEXTOS DAS LISTAS*/
+.txt-listas{
     font-family: 'Comfortaa', cursive;
     color: white;
     font-size: 20px;
 }
 
-.txt-listas{
+/*FORMATAÇÃO UTILIZADA NOS TEXTOS DOS GRIDS*/
+.txt-grid{
     font-family: 'Share Tech', sans-serif;
     color: white;
     font-size: 24px;
@@ -100,7 +109,7 @@ body {
     }
 }
 
-/* NAVBAR */
+/* FORMATAÇÃO DOS ELEMENTOS NO NAVBAR */
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -168,7 +177,7 @@ body {
     background-color: goldenrod;
 }
 
-/* RODAPE */
+/*FORMATAÇÃO UTILIZADA NOS ELEMENTOS DO RODAPE */
 #rodape {
     display: flex;
     justify-content: space-between;
