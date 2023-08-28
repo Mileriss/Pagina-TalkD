@@ -9,7 +9,7 @@
     <!--BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
     <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="/V2/CSS/estilo_pag_inicial.css" />
+    <link rel="stylesheet" type="text/css" href="/V2/CSS/estilo_contato.css" />
     <link rel="stylesheet" type="text/css" href="/V2/CSS/estilo_geral.css" />
     <link rel="icon" href="/V2/Imagens/logotipo_talkd.png" />
     <!--FONT-AWESOME-->
@@ -30,30 +30,60 @@
       </button>
       <div class="collapse navbar-collapse" id="menu-nav">
         <ul id="lista-nav" class="navbar-nav">
-            <li class="nav-item">
-                <a class="item-menu" id="nav-pag-inicial" href="/V2/HTML/pag_inicial.html">Página inicial</a>
-              </li>
-              <li class="nav-item">
-                <a class="item-menu" id="nav-solucoes" href="/V2/HTML/solucoes.html">Soluções</a>
-              </li>
-              <li class="nav-item">
-                <a class="item-menu" id="nav-cobertura" href="/V2/HTML/cobertura.html">Cobertura</a>
-              </li>
-              <li class="nav-item">
-                <a class="item-menu" id="nav-sobre" href="/V2/HTML/sobre.html">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="item-menu" id="nav-contato" href="/V2/HTML/contato.html">Contato</a>
-              </li>
-              <li class="nav-item">
-                <a class="item-menu" id="nav-portal" href="http://portalsdwan.com.br/login.html" target="_blank">Portal</a>
-              </li>
+          <li class="nav-item">
+            <a class="item-menu" id="nav-pag-inicial" href="/V2/HTML/pag_inicial.html">Página inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="item-menu" id="nav-solucoes" href="/V2/HTML/solucoes.html">Soluções</a>
+          </li>
+          <li class="nav-item">
+            <a class="item-menu" id="nav-cobertura" href="/V2/HTML/cobertura.html">Cobertura</a>
+          </li>
+          <li class="nav-item">
+            <a class="item-menu" id="nav-sobre" href="/V2/HTML/sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="item-menu" id="nav-contato" href="/V2/HTML/contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="item-menu" id="nav-portal" href="http://portalsdwan.com.br/login.html" target="_blank">Portal</a>
+          </li>
         </ul>
       </div>
     </nav>
 
-    
-    
+    <!--FORMULÁRIO DE CONTATO-->
+    <section>
+      <div id="contato" class="img-de-fundo">
+        <h1 id="titulo-form-contato" class="titulo-principal">Contato</h1>
+        <div id="form-contato" class="row container">
+          <div id="apresentacao-form" class="col">
+            <p id="txt-form">Entre em contato conosco e descubra como evoluir o atendimento da sua empresa!</p>
+          </div>
+          <form id="formulario" class="col">
+            <label id="lbl-nome" class="lbl" for="inp-nome">Nome:</label>
+            <input id="inp-nome" class="inp" type="text" minlength="2" maxlength="15" placeholder="Digite seu nome..." required />
+            <br />
+            <label id="lbl-sobrenome" class="lbl" for="inp-sobrenome">Sobrenome:</label>
+            <input id="inp-sobrenome" class="inp" type="text" minlength="2" maxlength="15" placeholder="Digite seu sobrenome..." required />
+            <br />
+            <label id="lbl-email" class="lbl" for="inp-email">E-mail de contato:</label>
+            <input id="inp-email" class="inp" type="email" placeholder="Digite seu e-mail..." required />
+            <br />
+            <label id="lbl-contato" class="lbl" for="inp-contato">Seu contato:</label>
+            <input id="inp-contato" class="inp" type="number" min="8" maxlength="11" placeholder="Digite seu contato..." required />
+            <br />
+            <label id="lbl-empresa" class="lbl" for="inp-empresa">Sua empresa:</label>
+            <input id="inp-empresa" class="inp" type="text" minlength="2" maxlength="20" placeholder="Nome da sua empresa..." required />
+            <br />
+            <label id="lbl-txt-area" class="lbl" for="txt-area-form">Em que podemos te ajudar?</label><br />
+            <textarea id="txt-area-form" minlength="10" maxlength="200" placeholder="máximo 200 caracteres..." required> </textarea>
+            <br />
+            <button id="btn-enviar" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <!--BOTÃO SUBIR TELA-->
     <div class="btn-inicio fixed-bottom">
