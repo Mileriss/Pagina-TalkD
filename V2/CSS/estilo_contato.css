@@ -1,0 +1,40 @@
+#contato{
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/01/19/47/background-2462426_1280.jpg);
+}
+
+#form-contato{
+    background-color: green;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#apresentacao-form{
+    background-color: lightblue;
+}
+
+#txt-form{
+    font-size: 4em;
+    color: black;
+    text-shadow: 5px 10px 8px red;
+    font-family: 'Kanit', sans-serif;
+}
+
+#formulario{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.lbl{
+    font-family: 'Share Tech', sans-serif;
+}
+
+.inp, #txt-area-form{
+    background-color: orange;
+}
+
+#btn-enviar{
+    background-color: purple;
+}
