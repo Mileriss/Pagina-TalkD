@@ -3,19 +3,19 @@
 }
 
 #form-contato{
-    background-color: green;
+    /* background-color: green; */
     margin: 0 auto;
     padding: 50px;
 }
 
 #apresentacao-form{
-    background-color: lightblue;
+    background-color: red;
 }
 
 #txt-form{
     font-size: 4em;
-    color: black;
-    text-shadow: 5px 10px 8px red;
+    color: white;
+    text-shadow: 3px 3px 2px black;
     font-family: 'Kanit', sans-serif;
 }
 
