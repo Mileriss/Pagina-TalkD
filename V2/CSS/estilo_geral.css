@@ -23,8 +23,9 @@ body {
 /*FUNDO PRETO COM UM POUCO DE TRANSPARENCIA QUE FICA NOS BLOCOS DE TEXTO*/
 .bloco-background{
     background-color:rgba(0, 0, 0, 0.9);
-    box-shadow: 0 0 20px black;
-    border-radius: 20px;
+    border: 1px solid dimgray;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10px;
     margin: 10px auto;
 }
 
@@ -73,16 +74,22 @@ body {
 }
 
 /*FORMATAÇÃO UTILIZADA NOS TEXTOS DE INTRODUÇÃO DE CADA SEÇÃO*/
-.txt-principal{
-    font-family: 'Kanit', sans-serif;
-    color: black;
-    font-size: 24px;
-    background-color: rgba(255, 255, 255, 0.75);
-    box-shadow: 0 10px 5px black;
-    border: 2px solid black;
-    border-radius: 10px;
+.background-txt{
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 10px black;
+    border-top: 5px ridge black;
+    border-bottom: 5px ridge black;
+    border-radius: 5px;
     padding: 20px;
     margin-bottom: 25px;
+}
+
+.txt-principal{
+    text-shadow: 1px 2px 1px dimgray;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 28px;
 }
 
 /*FORMATAÇÃO UTILIZADA NOS TEXTOS DAS LISTAS*/
@@ -116,13 +123,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    /* background-color: rgba(0, 0, 0, 0.6); */
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
     margin: 0 auto;
 }
 
 #menu-nav {
-    justify-content: end;
+    justify-content: flex-end;
     margin: 10px auto;
     text-align: center;
     border-radius: 10px;
