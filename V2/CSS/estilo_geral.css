@@ -37,6 +37,7 @@ body {
     padding: 50px;
     margin: 0 auto;
     text-align: center;
+    text-shadow: 3px 3px 2px black;
 }
 
 @media screen and (min-width: 350px) and (max-width: 767px) {
