@@ -28,16 +28,11 @@
 }
 
 .div-grid-solucoes{
-    
     padding: 20px;
 }
 
-.espacamento-grid-solucoes{
-    margin: 50px auto;
-}
-
-.titulo-item-grid-solucoes, .titulo-isps, .titulo-provedores, .titulo-aiv-servicos{
-    font-size: 24px;
+.titulo-item-grid-solucoes, .titulo-isps, .titulo-provedores, .titulo-ativ-servicos{
+    font-size: 20px;
     font-family: 'Kanit', sans-serif;
     text-align: left;
     padding: 10px;
@@ -47,41 +42,31 @@
 }
 
 .titulo-isps{
-    background: linear-gradient(to top, black, rebeccapurple);
-    border-top: 2px solid rebeccapurple;
-    border-right: 2px solid rebeccapurple;
-    border-left: 2px solid rebeccapurple;
+    background-color: rgba(102, 51, 153, 0.8);
+    border: 5px outset rebeccapurple;
     box-shadow: 0 0 10px rebeccapurple;
 }
 
 .titulo-provedores{
-    background: linear-gradient(to top, black, goldenrod);
-    border-top: 2px solid goldenrod;
-    border-right: 2px solid goldenrod;
-    border-left: 2px solid goldenrod;
+    background-color: rgba(218, 165, 32, 0.8);
+    border: 5px outset goldenrod;
     box-shadow: 0 0 10px goldenrod;
 }
 
 .titulo-ativ-servicos{
-    background: linear-gradient(to top, black, seagreen);
-    border-top: 2px solid seagreen;
-    border-right: 2px solid seagreen;
-    border-left: 2px solid seagreen;
+    background-color: rgba(46, 139, 86, 0.8);
+    border: 5px outset seagreen;
     box-shadow: 0 0 10px seagreen;
 }
 
 .txt-lista-grid{
     color: black !important;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    border-bottom: 2px solid white;
     box-shadow: 0 0 5px white;
     padding: 10px;
     background-color: darkgrey;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
-
 
 /*BPO*/
 #bpo{
