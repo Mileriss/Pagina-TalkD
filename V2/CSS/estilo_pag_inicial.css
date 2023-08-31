@@ -4,7 +4,7 @@
     margin: 58px auto;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px) {
+@media screen and (min-width: 350px) and (max-width: 667px) {
     #apresentacao {
         margin: 20px auto;
     }
@@ -15,7 +15,7 @@
     grid-gap: 10px;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px) {
+@media screen and (min-width: 350px) and (max-width: 667px) {
     #grid-apresentacao {
         display: flex;
         flex-flow: column wrap;
@@ -35,23 +35,10 @@
     color: white;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px) {
+@media screen and (min-width: 350px) and (max-width: 667px) {
     .bloco-txt-apresentacao {
         margin: 10px auto;
         padding: 15px;
-    }
-}
-
-.txt-apresentacao {
-    margin: 10px auto;
-    font-size: 24px;
-    font-family: 'Share Tech', sans-serif;
-}
-
-@media screen and (min-width: 350px) and (max-width: 767px) {
-    .txt-apresentacao {
-        margin: 0 auto;
-        font-size: 14px;
     }
 }
 
@@ -65,9 +52,9 @@
     font-size: 22px;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px) {
+@media screen and (min-width: 350px) and (max-width: 667px) {
     #txt-destaque-apresentacao {
-        font-size: 10px;
+        font-size: 12px;
         margin-bottom: 50px;
     }
 }
@@ -94,7 +81,7 @@
     font-family: 'Kanit', sans-serif;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px) {
+@media screen and (min-width: 350px) and (max-width: 667px) {
     .slg-titulos {
         font-size: 40px;
         text-align: center;
@@ -105,7 +92,7 @@
     padding: 5em;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px) {
+@media screen and (min-width: 350px) and (max-width: 667px) {
     .slg-descricao {
         padding: 15px;
     }
@@ -118,7 +105,7 @@
     font-family: 'Share Tech', sans-serif;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px) {
+@media screen and (min-width: 350px) and (max-width: 667px) {
     .slg-txt {
         font-size: 20px;
         text-align: center;
@@ -136,7 +123,7 @@
     margin: 10px auto;
 }
 
-@media screen and (min-width: 350px) and (max-width:767px) {
+@media screen and (min-width: 350px) and (max-width:667px) {
     #atendimento {
         display: block;
         margin: 0 auto;
@@ -159,7 +146,7 @@
     width: 65%;
 }
 
-@media screen and (min-width: 350px) and (max-width:767px) {
+@media screen and (min-width: 350px) and (max-width:667px) {
     #img-atendimento {
         position: static;
         bottom: none;
@@ -176,7 +163,7 @@
     margin: 10px auto;
 }
 
-@media screen and (min-width: 350px) and (max-width:767px) {
+@media screen and (min-width: 350px) and (max-width:667px) {
     #relacionamento {
         background-color: goldenrod;
         display: block;
@@ -198,7 +185,7 @@
     width: auto;
 }
 
-@media screen and (min-width: 350px) and (max-width:767px) {
+@media screen and (min-width: 350px) and (max-width:667px) {
     #img-relacionamento {
         position: static;
         right: none;
@@ -214,7 +201,7 @@
     margin: 10px auto;
 }
 
-@media screen and (min-width: 350px) and (max-width:767px) {
+@media screen and (min-width: 350px) and (max-width:667px) {
     #simples {
         background-color: rgba(46, 139, 86, 0.6);
         display: block;
@@ -235,7 +222,7 @@
     width: auto;
 }
 
-@media screen and (min-width: 350px) and (max-width:767px) {
+@media screen and (min-width: 350px) and (max-width:667px) {
     #img-simples {
         position: none;
         height: 0;
@@ -250,25 +237,10 @@
     background-image: url(/V2/Imagens_de_fundo/img_sol_dig.png);
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px){
+@media screen and (min-width: 350px) and (max-width: 667px){
     #sol-dig{
         background-size: 100%;
         margin: 0 auto;
-    }
-}
-
-.txt-sol-dig {
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    font-family: 'Share Tech', sans-serif;
-}
-
-@media screen and (min-width: 350px) and (max-width: 767px){
-    .txt-sol-dig{
-        font-size: 14px;
-        padding: 10px;
-        text-align: center;
     }
 }
 
@@ -282,7 +254,7 @@
     font-size: 22px;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px){
+@media screen and (min-width: 350px) and (max-width: 667px){
     #txt-destaque-sol-dig{
         font-size: 10px;
         margin-bottom: 50px;
@@ -291,13 +263,12 @@
 
 
 #grid-sol-dig {
-    background-color: black;
     border-radius: 20px;
     margin: 50px auto;
     padding: 20px;
 }
 
-@media screen and (min-width: 350px) and (max-width:767px){
+@media screen and (min-width: 350px) and (max-width:667px){
     #grid-sol-dig{
         border-radius: 10px;
         margin: 10px auto;
@@ -317,29 +288,27 @@
     background-color: white;
 }
 
-@media screen and (min-width:350px) and (max-width: 767px){
+@media screen and (min-width:350px) and (max-width: 667px){
     .sub-titulo-sol-dig{
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         width: 100%;
+        padding: 5px;
+        box-shadow: 2.5px 2.5px 0 goldenrod;
+        border-radius: 5px;
     }
 }
 
 .txt-grid-sol-dig {
-    color: white;
-    font-size: 20px;
-    font-family: 'Share Tech', sans-serif;
     text-align: justify;
     padding: 10px;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px){
+@media screen and (min-width: 350px) and (max-width: 667px){
     .txt-grid-sol-dig{
-        font-size: 12px;
-        text-align: center;
         padding: 5px;
         margin: 5px auto;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
 }
 
@@ -349,7 +318,7 @@
     background-image: url(/V2/Imagens_de_fundo/img_vc_sabia.webp);
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px){
+@media screen and (min-width: 350px) and (max-width: 667px){
     #vc-sabia{
         margin: 0 auto;
     }
@@ -358,26 +327,15 @@
 
 .bloco-txt-vc-sabia {
     margin: 50px auto;
-    background-color: rgba(0, 0, 0, 0.8);
-    border: 2px solid rebeccapurple;
-    /* box-shadow: 0 0 10px rgba(102, 51, 153, 0.5); */
-    border-radius: 10px;
-    padding: 25px;
-    text-align: justify;
-    font-size: 24px;
-    font-family: 'Share Tech', sans-serif;
-    color: white;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px) {
+@media screen and (min-width: 350px) and (max-width: 667px) {
     .bloco-txt-vc-sabia{
         font-size: 12px;
         margin: 10px auto;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 10px;
-        text-align: center;
-        
-
+        text-align: justify;
     }
     
 }
@@ -385,7 +343,7 @@
 #grid-vc-sabia {
     margin: 0 auto;
 }
-@media screen and (min-width: 0px) and (max-width:767px){
+@media screen and (min-width: 0px) and (max-width:667px){
     #grid-vc-sabia{
         display: grid;
         grid-template-columns: auto;
@@ -399,14 +357,6 @@
 #evol-atend {
     background-color: rgba(0, 0, 0, 0.6);
     margin: 0 auto;
-    border: 2px solid black;
-    border-radius: 10px;
-}
-
-@media screen and (min-width: 350px) and (max-width: 767px){
-    #evol-atend{
-        margin: 0 auto;
-    }
     
 }
 
@@ -414,7 +364,7 @@
     padding: 20px;
     margin: 0 auto;
 }
-@media screen and (min-width: 350px) and (max-width:767px){
+@media screen and (min-width: 350px) and (max-width:667px){
     #servicos{
         margin: 10px auto;
         padding: 5px;
@@ -427,16 +377,11 @@
 
 .item-lista {
     margin: 0 auto;
-    text-align: justify;
-    font-size: 32px !important;
-    font-family: 'Share Tech', sans-serif;
-    color: white;
 }
-@media screen and (min-width:350px) and (max-width: 767px) {
+@media screen and (min-width:350px) and (max-width: 667px) {
     .item-lista{
         margin: 0 auto;
         text-align: left;
-        font-size: 14px;
     }
     
 }

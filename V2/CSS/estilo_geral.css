@@ -40,12 +40,11 @@ body {
     text-align: center;
     text-shadow: 3px 3px 2px black;
 }
-
-@media screen and (min-width: 350px) and (max-width: 767px) {
-    .titulo-principal {
-        font-size: 1.5em;
+@media screen and (min-width: 350px) and (max-width: 667px){
+    .titulo-principal{
+        font-size: 20px;
         text-align: center;
-        padding: 10px;
+        padding: 20px;
     }
 }
 
@@ -56,10 +55,20 @@ body {
     text-align: center;
     font-family: 'Share Tech', sans-serif;
 }
+@media screen and (min-width: 350px) and (max-width: 667px){
+    .sub-titulo{
+        font-size: 15px;
+    }
+}
 
 /*ESPAÇAMENTO DE ICONES UTILIZADOS NAS DIV SOLUÇÕES DIGITAIS*/
 .espacamento-icones{
     margin: 0 20px;
+}
+@media screen and (min-width: 350px) and (max-width: 667px){
+    .espacamento-icones{
+        margin: 0 10px;
+    }
 }
 
 @keyframes flutuando {
@@ -84,12 +93,22 @@ body {
     padding: 20px;
     margin-bottom: 25px;
 }
+@media screen and (min-width: 350px) and (max-width: 667px){
+    .background-txt{
+        padding: 10px;
+    }
+}
 
 .txt-principal{
     text-shadow: 1px 2px 1px dimgray;
     font-family: 'Kanit', sans-serif;
     color: white;
     font-size: 28px;
+}
+@media screen and (min-width: 350px) and (max-width: 667px) {
+    .txt-principal{
+        font-size: 12px;
+    } 
 }
 
 /*FORMATAÇÃO UTILIZADA NOS TEXTOS DAS LISTAS*/
@@ -98,12 +117,24 @@ body {
     color: white;
     font-size: 20px;
 }
+@media screen and (min-width: 350px) and (max-width: 667px) {
+    .txt-listas{
+        font-size: 12px !important;
+        text-align: left;
+    }
+    
+}
 
 /*FORMATAÇÃO UTILIZADA NOS TEXTOS DOS GRIDS*/
 .txt-grid{
     font-family: 'Share Tech', sans-serif;
     color: white;
     font-size: 24px;
+}
+@media screen and (min-width: 350px) and (max-width: 667px){
+    .txt-grid{
+        font-size: 12px;
+    }
 }
 
 /* LOGOTIPO */
