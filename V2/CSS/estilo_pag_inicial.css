@@ -326,7 +326,8 @@
 }
 
 .bloco-txt-vc-sabia {
-    margin: 50px auto;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 @media screen and (min-width: 350px) and (max-width: 667px) {
@@ -377,6 +378,8 @@
 
 .item-lista {
     margin: 0 auto;
+    font-size: 32px !important;
+    
 }
 @media screen and (min-width:350px) and (max-width: 667px) {
     .item-lista{

@@ -127,7 +127,7 @@
     #atendimento {
         display: block;
         margin: 0 auto;
-        background-image: url(/Imagens_sem_fundo/img_atendimento_semfundo.png);
+        background-image: url(img_atendimento_semfundo.png);
         background-repeat: no-repeat;
         background-size: 100%;
         background-color: rgba(102, 51, 153, 0.6);
@@ -168,7 +168,7 @@
         background-color: goldenrod;
         display: block;
         margin: 0 auto;
-        background-image: url(/Imagens_sem_fundo/img_relacionamento_semfundo.png);
+        background-image: url(img_relacionamento_semfundo.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -206,7 +206,7 @@
         background-color: rgba(46, 139, 86, 0.6);
         display: block;
         margin: 0 auto;
-        background-image: url(/Imagens_sem_fundo/img_simples_2-semfundo.png);
+        background-image: url(img_simples_2-semfundo.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -234,7 +234,7 @@
 
 /* SOLUÇÕES DIGITAIS */
 #sol-dig {
-    background-image: url(/Imagens_de_fundo/img_sol_dig.png);
+    background-image: url(img_sol_dig.png);
 }
 
 @media screen and (min-width: 350px) and (max-width: 667px){
@@ -315,7 +315,7 @@
 
 /* VOCÊ SABIA */
 #vc-sabia {
-    background-image: url(/Imagens_de_fundo/img_vc_sabia.webp);
+    background-image: url(img_vc_sabia.webp);
 }
 
 @media screen and (min-width: 350px) and (max-width: 667px){
