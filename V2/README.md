@@ -1,2 +1,2 @@
 # Segunda versão da página  
-Infelizmente o link que eu uso para exibição das páginas não suporta Bootstrap e os arquivos precisam estar fora da pasta, não tem link pra visualização por enquanto, sorry.
+Para acessar a segunda versão da página [Clique aqui](https://htmlpreview.github.io/?https://github.com/Mileriss/Pagina-TalkD/blob/main/V1/pag_inicial.html)
